@@ -1,0 +1,24 @@
+ Paleta Tradicional e Convidativa
+Vermelho: #FF4500
+Laranja: #FFA500
+Amarelo: #FFD700
+Marrom: #8B4513
+Preto: #000000
+2. Paleta Rústica e Aconchegante
+Marrom Claro: #D2B48C
+Bege: #F5F5DC
+Verde Escuro: #556B2F
+Vermelho Vinho: #800000
+Cinza: #A9A9A9
+3. Paleta Moderna e Vibrante
+Azul Marinho: #000080
+Laranja Brilhante: #FF8C00
+Cinza Claro: #D3D3D3
+Verde Lima: #32CD32
+Branco: #FFFFFF
+4. Paleta Sofisticada e Elegante
+Preto: #000000
+Dourado: #FFD700
+Bordô: #800020
+Marrom Escuro: #654321
+Cinza Metálico: #A9A9A9
