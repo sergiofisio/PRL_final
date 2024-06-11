@@ -1,0 +1,53 @@
+[
+  {
+    "tipo": "Bebida Alcoolica",
+    "categorias": [
+      { "tipo": "Cerveja" },
+      { "tipo": "Vinho" },
+      { "tipo": "Champanhe" },
+      { "tipo": "Cidra" },
+      { "tipo": "Licor" },
+      { "tipo": "Espumante" },
+      { "tipo": "Cachaça" },
+      { "tipo": "Aguardente" },
+      { "tipo": "Sakê" },
+      { "tipo": "Sangria" },
+      { "tipo": "Whisky" },
+      { "tipo": "Licor" },
+      { "tipo": "Tequila" },
+      { "tipo": "Vermute" },
+      { "tipo": "Pisco" },
+      { "tipo": "Grappa" },
+      { "tipo": "Absinto" },
+      { "tipo": "Vodka" },
+      { "tipo": "Rum" },
+      { "tipo": "Brandy" },
+      { "tipo": "Gin" }
+    ]
+  },
+  {
+    "tipo": "Não Alcoolica",
+    "categorias": [
+      { "tipo": "Refrigerante" },
+      { "tipo": "Suco" },
+      { "tipo": "Chá" },
+      { "tipo": "Smoothie" },
+      { "tipo": "Energético" },
+      { "tipo": "Água" }
+    ]
+  },
+  {
+    "tipo": "Churrasco",
+    "categorias": [
+      { "tipo": "Carne de boi" },
+      { "tipo": "Carne de porco" },
+      { "tipo": "Linguíça" },
+      { "tipo": "Frango" },
+      { "tipo": "Pão" },
+      { "tipo": "Queijo" },
+      { "tipo": "Farofa" },
+      { "tipo": "Molho" },
+      { "tipo": "Legume" }
+    ]
+  }
+]
