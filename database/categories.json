@@ -1,53 +1,40 @@
 [
   {
-    "tipo": "Bebida Alcoolica",
     "categorias": [
-      { "tipo": "Cerveja" },
-      { "tipo": "Vinho" },
-      { "tipo": "Champanhe" },
-      { "tipo": "Cidra" },
-      { "tipo": "Licor" },
-      { "tipo": "Espumante" },
-      { "tipo": "Cachaça" },
-      { "tipo": "Aguardente" },
-      { "tipo": "Sakê" },
-      { "tipo": "Sangria" },
-      { "tipo": "Whisky" },
-      { "tipo": "Licor" },
-      { "tipo": "Tequila" },
-      { "tipo": "Vermute" },
-      { "tipo": "Pisco" },
-      { "tipo": "Grappa" },
-      { "tipo": "Absinto" },
-      { "tipo": "Vodka" },
-      { "tipo": "Rum" },
-      { "tipo": "Brandy" },
-      { "tipo": "Gin" }
-    ]
-  },
-  {
-    "tipo": "Não Alcoolica",
-    "categorias": [
-      { "tipo": "Refrigerante" },
-      { "tipo": "Suco" },
-      { "tipo": "Chá" },
-      { "tipo": "Smoothie" },
-      { "tipo": "Energético" },
-      { "tipo": "Água" }
-    ]
-  },
-  {
-    "tipo": "Churrasco",
-    "categorias": [
-      { "tipo": "Carne de boi" },
-      { "tipo": "Carne de porco" },
-      { "tipo": "Linguíça" },
-      { "tipo": "Frango" },
-      { "tipo": "Pão" },
-      { "tipo": "Queijo" },
-      { "tipo": "Farofa" },
-      { "tipo": "Molho" },
-      { "tipo": "Legume" }
+      { "id": 1, "descrição": "Cerveja", "tipo": "alcoolica" },
+      { "id": 2, "descrição": "Vinho", "tipo": "alcoolica" },
+      { "id": 3, "descrição": "Champanhe", "tipo": "alcoolica" },
+      { "id": 4, "descrição": "Cidra", "tipo": "alcoolica" },
+      { "id": 5, "descrição": "Licor", "tipo": "alcoolica" },
+      { "id": 6, "descrição": "Espumante", "tipo": "alcoolica" },
+      { "id": 7, "descrição": "Cachaça", "tipo": "alcoolica" },
+      { "id": 8, "descrição": "Aguardente", "tipo": "alcoolica" },
+      { "id": 9, "descrição": "Sakê", "tipo": "alcoolica" },
+      { "id": 10, "descrição": "Sangria", "tipo": "alcoolica" },
+      { "id": 11, "descrição": "Whisky", "tipo": "alcoolica" },
+      { "id": 12, "descrição": "Licor", "tipo": "alcoolica" },
+      { "id": 13, "descrição": "Tequila", "tipo": "alcoolica" },
+      { "id": 14, "descrição": "Vermute", "tipo": "alcoolica" },
+      { "id": 15, "descrição": "Pisco", "tipo": "alcoolica" },
+      { "id": 16, "descrição": "Grappa", "tipo": "alcoolica" },
+      { "id": 17, "descrição": "Absinto", "tipo": "alcoolica" },
+      { "id": 18, "descrição": "Vodka", "tipo": "alcoolica" },
+      { "id": 19, "descrição": "Rum", "tipo": "alcoolica" },
+      { "id": 20, "descrição": "Brandy", "tipo": "alcoolica" },
+      { "id": 21, "descrição": "Gin", "tipo": "alcoolica" },
+      { "id": 22, "descrição": "Refrigerante", "tipo": "nAlcoolica" },
+      { "id": 23, "descrição": "Suco", "tipo": "nAlcoolica" },
+      { "id": 24, "descrição": "Chá", "tipo": "nAlcoolica" },
+      { "id": 25, "descrição": "Smoothie", "tipo": "nAlcoolica" },
+      { "id": 26, "descrição": "Energético", "tipo": "nAlcoolica" },
+      { "id": 27, "descrição": "Água", "tipo": "nAlcoolica" },
+      { "id": 28, "descrição": "Carne de boi", "tipo": "Churrasco" },
+      { "id": 29, "descrição": "Carne de porco", "tipo": "Churrasco" },
+      { "id": 30, "descrição": "Linguíça", "tipo": "Churrasco" },
+      { "id": 31, "descrição": "Frango", "tipo": "Churrasco" },
+      { "id": 32, "descrição": "Complementos", "tipo": "Churrasco" },
+      { "id": 33, "descrição": "Queijo", "tipo": "Churrasco" },
+      { "id": 34, "descrição": "Farofa", "tipo": "Churrasco" }
     ]
   }
 ]
