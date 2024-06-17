@@ -1,0 +1,86 @@
+.about {
+  background-image: url("../img/BG/bg-about.svg");
+}
+
+.about > main {
+  display: flex;
+  align-items: center;
+}
+
+.sectionAbout {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+  height: 100%;
+}
+
+.left > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+
+  width: 330px;
+  height: 330px;
+
+  background-color: white;
+  border-radius: 2rem;
+
+  color: #800000;
+  font-weight: 900;
+
+  padding: 1rem;
+}
+
+.imgFounder {
+  height: 260px;
+}
+
+.right {
+  padding: 30px 0;
+}
+
+.right > div {
+  width: 710px;
+  height: 650px;
+
+  background-color: white;
+
+  border-radius: 2rem;
+
+  padding: 1.25rem;
+}
+
+.right > div > div {
+  max-height: 100%;
+  overflow: auto;
+}
+
+.right > div > div::-webkit-scrollbar {
+  width: 10px;
+}
+
+.right > div > div::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.right > div > div::-webkit-scrollbar-thumb {
+  background: #800000;
+
+  border-radius: 10px;
+}
+
+.right > div > div::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.sectionAbout p,
+.sectionAbout strong {
+  font-size: 24px;
+
+  color: #800000;
+}

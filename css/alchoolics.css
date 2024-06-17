@@ -1,0 +1,9 @@
+.alcoholics {
+  background-image: url("../img/bg/bg-alchool.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-width: 100vw;
+  min-height: calc(100vh - 185px);
+  max-height: calc(100vh - 185px);
+  overflow-y: auto;
+}

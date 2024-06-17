@@ -28,6 +28,7 @@ header {
 .dropdown-menu {
   border-radius: 1rem;
   background-color: #800000;
+  border: 2px solid white;
   gap: 1rem;
 }
 
@@ -39,6 +40,8 @@ header {
   color: white;
 
   transition: all 0.5s ease-in-out;
+
+  border-style: solid;
 }
 
 .dropdown-item:hover {
