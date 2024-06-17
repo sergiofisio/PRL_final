@@ -1,0 +1,8 @@
+.shop {
+  display: flex;
+  height: calc(100vh - 185px);
+}
+
+aside {
+  height: 100%;
+}

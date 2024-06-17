@@ -9,7 +9,7 @@ header {
   width: 80%;
 }
 
-.navbar>div>div{
+.navbar > div > div {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -59,4 +59,7 @@ header {
 header .logo {
   width: 170px;
   height: 135px;
+}
+header .logoLoja {
+  width: 50px;
 }
