@@ -6,7 +6,13 @@ header {
 }
 
 .navbar {
-  width: 50%;
+  width: 80%;
+}
+
+.navbar>div>div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .nav-link,
