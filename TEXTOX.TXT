@@ -1,0 +1,57 @@
+ESTES SÃO SO TEXTOS QUE TENHO DO SITE
+### SOBRE NÓS
+**SYGLA** é mais do que uma empresa; é uma celebração da união e da amizade. Fundada por um grupo de amigos apaixonados por bons momentos, **Sergio, Yasmin, Gabriel e Luiz Alberto**, a SYGLA nasceu da nossa paixão compartilhada por bebidas de qualidade e churrascos memoráveis. Nosso objetivo é proporcionar experiências inesquecíveis, oferecendo uma seleção de bebidas para todos os gostos e todos os brindes, além de tudo que você precisa para o churrasco perfeito.
+
+### BEBIDAS
+#### Página 1 - BEBIDAS ALCOÓLICAS
+Na SYGLA, selecionamos cuidadosamente um sortimento de **bebidas alcoólicas** que prometem elevar qualquer ocasião. Desde cervejas artesanais até destilados premium e vinhos selecionados, nossa coleção é curada com o intuito de surpreender e satisfazer paladares exigentes.
+
+#### Página 2 - BEBIDAS NÃO ALCOÓLICAS
+Para aqueles que preferem uma opção sem álcool, nossa gama de **bebidas não alcoólicas** é igualmente diversificada e deliciosa. Sucos naturais, refrigerantes artesanais e mocktails criativos estão disponíveis para garantir que todos possam brindar juntos.
+
+### CHURRASCO
+#### Página 1 - CARNES
+O coração de um grande churrasco está na qualidade das **carnes**. A SYGLA orgulha-se de oferecer cortes selecionados, provenientes das melhores fontes, garantindo sabor e suculência incomparáveis para o seu churrasco.
+
+#### Página 2 - ACESSÓRIOS
+Todo churrasqueiro sabe que os **acessórios** certos fazem toda a diferença. Na SYGLA, você encontrará tudo, desde grelhas e espetos até aventais e luvas, para tornar seu churrasco um evento de sucesso.
+
+#### Página 3 - RECEITA
+Descubra o segredo dos mestres churrasqueiros com nossas **receitas** exclusivas. Aprenda a marinar, temperar e assar como um profissional, e leve seu churrasco a um novo nível.
+
+### DICAS
+Nossa seção de **dicas** é um tesouro de informações para entusiastas de bebidas e churrasco. Aqui, compartilhamos conhecimento sobre harmonização de bebidas, técnicas de churrasco e muito mais.
+
+### LOJA
+Visite nossa **loja** para explorar nossa seleção completa de bebidas e acessórios de churrasco. Compre online com facilidade e receba tudo o que precisa para o próximo encontro com amigos ou família.
+
+### CONTATO
+Tem perguntas ou precisa de ajuda? Nossa equipe está pronta para atendê-lo. Visite nossa página de **contato** para falar conosco. Estamos aqui para garantir que sua experiência com a SYGLA seja excepcional.
+
+Espero que esses textos sirvam como um bom ponto de partida para o site da SYGLA. Se precisar de mais detalhes ou ajustes, estou à disposição para ajudar!
+
+AGORA QUERO UM TEXTO MAIS ELABORADO E COM NO MINIMO 3 PARAGRAFOS PARA A SESSÃO DE BEBIDAS não alcoolicas QUERO MAIS ELABORADO COM ESTAS BEBIDAS
+        "nome": "Refrigerante Cola",
+        "nome": "Suco Natural de Laranja",
+        "nome": "Água Mineral Sem Gás",
+        "nome": "Suco de Uva Integral",
+        "nome": "Chá Verde Orgânico",
+        "nome": "Smoothie de Frutas Tropicais",
+        "nome": "Água de Coco Natural",
+        "nome": "Limonada Caseira",
+        "nome": "Energético Natural",
+        "nome": "Suco Detox",
+        "nome": "Iced Tea de Pêssego",
+        "nome": "Smoothie de Açaí",
+        "nome": "Mate Gelado",
+        "nome": "Suco de Abacaxi com Hortelã",
+        "nome": "Água de Limão",
+        "nome": "Chá de Hibisco",
+        "nome": "Smoothie de Morango com Banana",
+        "nome": "Refresco de Maracujá",
+        "nome": "Água Tônica Premium",
+        "nome": "Smoothie Detox de Couve",
+        "nome": "Chá de Camomila",
+        "nome": "Iced Coffee",
+        "nome": "Suco de Melancia",
+        "nome": "Água de Rosas",
