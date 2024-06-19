@@ -63,3 +63,12 @@ header .logo {
 header .logoLoja {
   width: 50px;
 }
+
+.cabecalho_dicas{
+  background-color: #800000 !important;
+}
+
+.cabecalho_dicas .nav-link{
+  color: white !important;
+}
+
