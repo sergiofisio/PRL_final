@@ -1,8 +1,86 @@
+.red {
+  color: #800000;
+}
+
 .shop {
   display: flex;
-  height: calc(100vh - 185px);
+  min-height: calc(100vh - 56px);
 }
 
 aside {
-  height: 100%;
+  width: 30%;
+  min-height: 100%;
+  padding: 0.5rem;
+}
+aside > div {
+  border-bottom: 2px solid #800000;
+}
+
+aside h2:hover {
+  font-weight: 800;
+}
+
+aside img {
+  transition: all 0.3s ease-in-out;
+}
+
+.pointer {
+  cursor: pointer;
+  user-select: none;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  max-height: calc(100vh - 56px);
+  overflow-y: scroll;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 30%;
+  height: 50%;
+
+  background-color: white;
+
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.product > img {
+  max-height: 50%;
+  width: 100%;
+}
+
+.product h2,
+.product h3,
+.product span {
+  text-align: center;
+  width: 100%;
+  margin: 0 !important;
+  color: #800000 !important;
+}
+
+.product button {
+  background-color: #800000;
+  border: 2px solid #800000;
+  border-radius: 1rem;
+  color: white;
+  padding: 0.5rem;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.product button:hover {
+  background-color: white;
+  color: #800000;
 }

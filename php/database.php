@@ -1,31 +1,30 @@
 <?php
-// Lê o arquivo JSON
-$json = file_get_contents('products.json');
+// Carregar o conteúdo do arquivo JSON
+$jsonFile = '../database/products.json';
+$jsonData = file_get_contents($jsonFile);
 
-// Converte o JSON em um objeto PHP
-$products = json_decode($json);
+// Decodificar o JSON para um array associativo
+$products = json_decode($jsonData, true);
 
-// Agora você pode acessar os dados no objeto PHP
-foreach ($products as $category => $details) {
-    echo "Categoria: " . $details->nome . "\n";
-    foreach ($details as $subCategory => $subDetails) {
-        if (is_object($subDetails)) {
-            echo "Subcategoria: " . $subDetails->Tipo . "\n";
-            foreach ($subDetails->Produtos as $product) {
-                echo "Nome do Produto: " . $product->nome . "\n";
-                echo "Descrição: " . $product->descrição . "\n";
-                echo "Categoria: " . $product->categoria . "\n";
-                echo "Valor: " . $product->valor . "\n";
-                echo "-----------------\n";
-            }
-        } elseif (is_array($subDetails)) {
-            foreach ($subDetails as $product) {
-                echo "Nome do Produto: " . $product->nome . "\n";
-                echo "Descrição: " . $product->descrição . "\n";
-                echo "Categoria: " . $product->categoria . "\n";
-                echo "Valor: " . $product->valor . "\n";
-                echo "-----------------\n";
-            }
+// Função para exibir os produtos
+function exibirProdutos($products)
+{
+    foreach ($products as $categoria) {
+        echo "<h2>Categoria: " . htmlspecialchars($categoria['categoria']) . "</h2>";
+        if (isset($categoria['tipo'])) {
+            echo "<h3>Tipo: " . htmlspecialchars($categoria['tipo']) . "</h3>";
+        }
+        foreach ($categoria['produtos'] as $produto) {
+            echo "<div>";
+            echo "<strong>Nome:</strong> " . htmlspecialchars($produto['nome']) . "<br>";
+            echo "<strong>Descrição:</strong> " . htmlspecialchars($produto['descrição']) . "<br>";
+            echo "<strong>Categoria:</strong> " . htmlspecialchars($produto['categoria']) . "<br>";
+            echo "<strong>Imagem:</strong> <img src='" . htmlspecialchars($produto['img']) . "' alt='" . htmlspecialchars($produto['nome']) . "'><br>";
+            echo "<strong>Valor:</strong> " . htmlspecialchars($produto['valor']) . "€<br>";
+            echo "</div><br>";
         }
     }
 }
+
+// Exibir os produtos
+exibirProdutos($products);

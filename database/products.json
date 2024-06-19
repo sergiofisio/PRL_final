@@ -1,707 +1,451 @@
-{
-  "bebidas_alcoolicas": {
-    "nome": "Bebidas Alcoolicas",
-    "fermentadas": {
-      "Tipo": "Fermentadas",
-      "Produtos": [
-        {
-          "nome": "Vinho Tinto Cabernet Sauvignon",
-          "descrição": "Vinho encorpado com notas de frutas vermelhas e especiarias.",
-          "categoria": 2,
-          "valor": 45.0
-        },
-        {
-          "nome": "Cerveja IPA Artesanal",
-          "descrição": "Cerveja lupulada com aroma cítrico e amargor equilibrado.",
-          "categoria": 1,
-          "valor": 7.5
-        },
-
-        {
-          "nome": "Cidra Artesanal",
-          "descrição": "Cidra refrescante com sabor de maçãs frescas e levemente ácido.",
-          "categoria": 4,
-          "valor": 8.0
-        },
-        {
-          "nome": "Vinho Branco Chardonnay",
-          "descrição": "Vinho fresco com aromas de frutas tropicais e toques de baunilha.",
-          "categoria": 2,
-          "valor": 30.0
-        },
-
-        {
-          "nome": "Espumante Brut",
-          "descrição": "Espumante seco com notas cítricas e perlage delicada.",
-          "categoria": 6,
-          "valor": 15.0
-        },
-        {
-          "nome": "Cachaça Artesanal",
-          "descrição": "Cachaça pura envelhecida em barris de carvalho.",
-          "categoria": 7,
-          "valor": 12.0
-        },
-        {
-          "nome": "Vinho Rosé Provence",
-          "descrição": "Vinho rosé leve e refrescante, com aromas de frutas vermelhas.",
-          "categoria": 2,
-          "valor": 18.0
-        },
-        {
-          "nome": "Sakê Premium Junmai",
-          "descrição": "Sake japonês puro com aroma floral e sabor suave.",
-          "categoria": 9,
-          "valor": 25.0
-        },
-
-        {
-          "nome": "Vinho Porto Tawny",
-          "descrição": "Vinho do Porto encorpado e adocicado, com notas de frutas secas.",
-          "categoria": 2,
-          "valor": 40.0
-        },
-        {
-          "nome": "Cerveja Stout Irlandesa",
-          "descrição": "Cerveja escura e encorpada com aromas de café e chocolate.",
-          "categoria": 1,
-          "valor": 8.0
-        },
-
-        {
-          "nome": "Cerveja Weissbier",
-          "descrição": "Cerveja de trigo alemã, leve e refrescante, com notas de banana e cravo.",
-          "categoria": 1,
-          "valor": 6.0
-        },
-        {
-          "nome": "Cidra de Pêra",
-          "descrição": "Cidra suave e frutada com sabor de pêras frescas.",
-          "categoria": 4,
-          "valor": 10.0
-        },
-
-        {
-          "nome": "Sangria Espanhola",
-          "descrição": "Bebida refrescante à base de vinho tinto, frutas cítricas e especiarias.",
-          "categoria": 10,
-          "valor": 12.0
-        },
-
-        {
-          "nome": "Vinho Malbec Argentino",
-          "descrição": "Vinho tinto encorpado com notas de ameixa e especiarias.",
-          "categoria": 2,
-          "valor": 35.0
-        },
-        {
-          "nome": "Vinho do Porto Vintage",
-          "descrição": "Vinho do Porto vintage, complexo e encorpado.",
-          "categoria": 2,
-          "valor": 80.0
-        },
-        {
-          "nome": "Vinho Chianti Clássico",
-          "descrição": "Vinho tinto italiano robusto e encorpado, com notas de cereja e especiarias.",
-          "categoria": 2,
-          "valor": 45.0
-        },
-        {
-          "nome": "Aguardente de Pêssego",
-          "descrição": "Aguardente de pêssego aromática, ideal para drinks refrescantes.",
-          "categoria": 8,
-          "valor": 28.0
-        },
-        {
-          "nome": "Aguardente Velha",
-          "descrição": "Aguardente envelhecida em barris de carvalho, com aroma suave e complexo.",
-          "categoria": 8,
-          "valor": 70.0
-        },
-        {
-          "nome": "Vinho Rioja Reserva",
-          "descrição": "Vinho tinto espanhol elegante e complexo, com taninos macios.",
-          "categoria": 2,
-          "valor": 50.0
-        },
-        {
-          "nome": "Champanhe Brut",
-          "descrição": "Champanhe seco e elegante, com perlage delicada e frescor.",
-          "categoria": 3,
-          "valor": 50.0
-        }
-      ]
-    },
-    "destiladas": {
-      "Tipo": "Destiladas",
-      "Produtos": [
-        {
-          "nome": "Licor de Mel",
-          "descrição": "Licor doce e aromático com sabor de mel puro.",
-          "categoria": 5,
-          "valor": 18.0
-        },
-        {
-          "nome": "Licor de Café",
-          "descrição": "Licor cremoso com sabor intenso de café e toques de baunilha.",
-          "categoria": 5,
-          "valor": 20.0
-        },
-        {
-          "nome": "Gin Sloe",
-          "descrição": "Gin inglês infusionado com ameixas sloe, suave e frutado.",
-          "categoria": 21,
-          "valor": 25.0
-        },
-        {
-          "nome": "Licor de Cereja",
-          "descrição": "Licor adocicado com sabor de cerejas maduras.",
-          "categoria": 5,
-          "valor": 20.0
-        },
-        {
-          "nome": "Tequila Blanco",
-          "descrição": "Tequila branca pura, com sabor suave e aroma agave fresco.",
-          "categoria": 13,
-          "valor": 30.0
-        },
-        {
-          "nome": "Vermute Seco",
-          "descrição": "Vermute aromatizado com ervas e especiarias, seco e refrescante.",
-          "categoria": 14,
-          "valor": 20.0
-        },
-        {
-          "nome": "Pisco Chileno",
-          "descrição": "Pisco tradicional do Chile, destilado de uvas frescas.",
-          "categoria": 15,
-          "valor": 30.0
-        },
-        {
-          "nome": "Licor de Amêndoa",
-          "descrição": "Licor doce com sabor intenso de amêndoas e notas de baunilha.",
-          "categoria": 5,
-          "valor": 22.0
-        },
-        {
-          "nome": "Grappa Italiana",
-          "descrição": "Grappa destilada com bagaço de uva, com sabor intenso e aroma frutado.",
-          "categoria": 16,
-          "valor": 30.0
-        },
-        {
-          "nome": "Absinto Tradicional",
-          "descrição": "Absinto clássico com teor alcoólico elevado e notas herbáceas.",
-          "categoria": 17,
-          "valor": 50.0
-        },
-        {
-          "nome": "Gin London Dry",
-          "descrição": "Gin clássico com zimbro e notas cítricas.",
-          "categoria": 21,
-          "valor": 35.0
-        },
-        {
-          "nome": "Vodka Premium",
-          "descrição": "Vodka pura com suavidade e leveza.",
-          "categoria": 18,
-          "valor": 25.0
-        },
-        {
-          "nome": "Whisky Escocês Single Malt",
-          "descrição": "Whisky envelhecido em barris de carvalho, com notas de fumaça e frutas secas.",
-          "categoria": 11,
-          "valor": 60.0
-        },
-        {
-          "nome": "Rum Caribenho",
-          "descrição": "Rum envelhecido com aroma de baunilha e frutas tropicais.",
-          "categoria": 19,
-          "valor": 40.0
-        },
-        {
-          "nome": "Tequila Reposado",
-          "descrição": "Tequila suave com notas de agave caramelizado e especiarias.",
-          "categoria": 13,
-          "valor": 35.0
-        },
-        {
-          "nome": "Gin Premium",
-          "descrição": "Gin artesanal destilado com botânicos selecionados.",
-          "categoria": 21,
-          "valor": 40.0
-        },
-        {
-          "nome": "Rum Premium",
-          "descrição": "Rum caribenho envelhecido em barris de carvalho.",
-          "categoria": 19,
-          "valor": 35.0
-        },
-        {
-          "nome": "Vodka Super Premium",
-          "descrição": "Vodka ultra filtrada e suavizada, com pureza excepcional.",
-          "categoria": 18,
-          "valor": 50.0
-        },
-        {
-          "nome": "Whisky Bourbon",
-          "descrição": "Whisky americano envelhecido em barris de carvalho, com sabor intenso.",
-          "categoria": 11,
-          "valor": 55.0
-        },
-        {
-          "nome": "Tequila Añejo",
-          "descrição": "Tequila envelhecida em barris de carvalho, suave e complexa.",
-          "categoria": 13,
-          "valor": 45.0
-        },
-        {
-          "nome": "Brandy XO",
-          "descrição": "Brandy envelhecido com riqueza de aromas e sabores.",
-          "categoria": 20,
-          "valor": 65.0
-        },
-        {
-          "nome": "Absinto Premium",
-          "descrição": "Absinto de alta qualidade, destilado com ervas e especiarias.",
-          "categoria": 17,
-          "valor": 75.0
-        },
-        {
-          "nome": "Licor de Café Premium",
-          "descrição": "Licor sofisticado com café arábica de alta qualidade.",
-          "categoria": 5,
-          "valor": 30.0
-        },
-
-        {
-          "nome": "Rum Escuro Jamaicano",
-          "descrição": "Rum jamaicano intenso e aromático, com notas de frutas tropicais.",
-          "categoria": 19,
-          "valor": 40.0
-        },
-        {
-          "nome": "Vodka Saborizada",
-          "descrição": "Vodka premium saborizada com frutas frescas e ervas aromáticas.",
-          "categoria": 18,
-          "valor": 25.0
-        },
-        {
-          "nome": "Whisky Escocês Premium",
-          "descrição": "Whisky escocês de malte único, com notas de turfa e frutas secas.",
-          "categoria": 11,
-          "valor": 70.0
-        },
-        {
-          "nome": "Gin de Alecrim",
-          "descrição": "Gin aromático infusionado com alecrim fresco, suave e herbal.",
-          "categoria": 21,
-          "valor": 45.0
-        },
-        {
-          "nome": "Brandy de Maçã",
-          "descrição": "Brandy destilado de maçãs frescas, com aroma frutado e delicado.",
-          "categoria": 20,
-          "valor": 35.0
-        },
-        {
-          "nome": "Tequila Extra Añejo",
-          "descrição": "Tequila ultra premium envelhecida por longos anos, suave e complexa.",
-          "categoria": 13,
-          "valor": 100.0
-        },
-        {
-          "nome": "Licor de Canela",
-          "descrição": "Licor doce e aromático com sabor de canela e especiarias.",
-          "categoria": 5,
-          "valor": 28.0
-        },
-
-        {
-          "nome": "Gin de Pimenta Rosa",
-          "descrição": "Gin aromatizado com pimenta rosa, equilibrado e picante.",
-          "categoria": 21,
-          "valor": 38.0
-        },
-        {
-          "nome": "Rum Coco",
-          "descrição": "Rum caribenho com sabor suave de coco, perfeito para coquetéis tropicais.",
-          "categoria": 19,
-          "valor": 30.0
-        },
-        {
-          "nome": "Vodka de Melancia",
-          "descrição": "Vodka aromatizada com suculenta melancia, refrescante e frutada.",
-          "categoria": 18,
-          "valor": 32.0
-        },
-        {
-          "nome": "Whisky Japonês Single Malt",
-          "descrição": "Whisky japonês de malte único, suave e complexo, com notas florais.",
-          "categoria": 11,
-          "valor": 90.0
-        },
-
-        {
-          "nome": "Licor de Hortelã-Pimenta",
-          "descrição": "Licor adocicado com sabor refrescante de hortelã-pimenta.",
-          "categoria": 5,
-          "valor": 26.0
-        },
-
-        {
-          "nome": "Gin de Frutas Vermelhas",
-          "descrição": "Gin aromatizado com frutas vermelhas frescas, suave e frutado.",
-          "categoria": 21,
-          "valor": 40.0
-        },
-        {
-          "nome": "Brandy de Cereja",
-          "descrição": "Brandy de cereja suave e aromático, com notas de frutas maduras.",
-          "categoria": 20,
-          "valor": 30.0
-        },
-        {
-          "nome": "Tequila Reposado",
-          "descrição": "Tequila suave com notas de agave caramelizado e especiarias.",
-          "categoria": 13,
-          "valor": 35.0
-        },
-        {
-          "nome": "Rum Banana",
-          "descrição": "Rum caribenho com sabor intenso de banana madura, doce e tropical.",
-          "categoria": 19,
-          "valor": 34.0
-        },
-        {
-          "nome": "Vodka de Tangerina",
-          "descrição": "Vodka refrescante com sabor cítrico de tangerina, suave e leve.",
-          "categoria": 18,
-          "valor": 30.0
-        },
-        {
-          "nome": "Whisky Irlandês",
-          "descrição": "Whisky irlandês suave e equilibrado, com notas de mel e baunilha.",
-          "categoria": 11,
-          "valor": 42.0
-        },
-        {
-          "nome": "Absinto Premium Gold",
-          "descrição": "Absinto premium envelhecido em barris de carvalho, suave e sofisticado.",
-          "categoria": 17,
-          "valor": 60.0
-        }
-      ]
-    }
+[
+  {
+    "categoria": "Bebidas Alcoolicas",
+    "tipo": "Fermentadas",
+    "produtos": [
+      {
+        "nome": "Vinho Tinto Cabernet Sauvignon",
+        "descrição": "Vinho encorpado com notas de frutas vermelhas e especiarias.",
+        "categoria": 2,
+        "img": "../img/alchool/fermentadas/Cabernet Sauvignon_.svg",
+        "valor": 45.0
+      },
+      {
+        "nome": "Cerveja IPA Artesanal",
+        "descrição": "Cerveja lupulada com aroma cítrico e amargor equilibrado.",
+        "categoria": 1,
+        "img": "../img/alchool/fermentadas/IPA artesanal.svg",
+        "valor": 7.5
+      },
+      {
+        "nome": "Cidra Artesanal",
+        "descrição": "Cidra refrescante com sabor de maçãs frescas e levemente ácido.",
+        "categoria": 4,
+        "img": "../img/alchool/fermentadas/Cidra de Pera.svg",
+        "valor": 8.0
+      },
+      {
+        "nome": "Vinho Branco Chardonnay",
+        "descrição": "Vinho fresco com aromas de frutas tropicais e toques de baunilha.",
+        "categoria": 2,
+        "img": "../img/alchool/fermentadas/Branco Chardonnay.svg",
+        "valor": 30.0
+      },
+      {
+        "nome": "Cachaça Artesanal",
+        "descrição": "Cachaça pura envelhecida em barris de carvalho.",
+        "categoria": 7,
+        "img": "../img/alchool/fermentadas/Aguardiente Antioqueño.svg",
+        "valor": 12.0
+      },
+      {
+        "nome": "Vinho Rosé Provence",
+        "descrição": "Vinho rosé leve e refrescante, com aromas de frutas vermelhas.",
+        "categoria": 2,
+        "img": "../img/alchool/fermentadas/Rose Provence.svg",
+        "valor": 18.0
+      },
+      {
+        "nome": "Sakê Premium Junmai",
+        "descrição": "Sake japonês puro com aroma floral e sabor suave.",
+        "categoria": 9,
+        "img": "../img/alchool/fermentadas/Sake Premium Junmai.svg",
+        "valor": 25.0
+      },
+      {
+        "nome": "Vinho Porto Tawny",
+        "descrição": "Vinho do Porto encorpado e adocicado, com notas de frutas secas.",
+        "categoria": 2,
+        "img": "../img/alchool/fermentadas/Porto Tawny.svg",
+        "valor": 40.0
+      },
+      {
+        "nome": "Cerveja Weissbier",
+        "descrição": "Cerveja de trigo alemã, leve e refrescante, com notas de banana e cravo.",
+        "categoria": 1,
+        "img": "../img/alchool/fermentadas/Weissbier.svg",
+        "valor": 6.0
+      },
+      {
+        "nome": "Cidra de Pêra",
+        "descrição": "Cidra suave e frutada com sabor de pêras frescas.",
+        "categoria": 4,
+        "img": "../img/alchool/fermentadas/Cidra de Pera.svg",
+        "valor": 10.0
+      },
+      {
+        "nome": "Sangria Espanhola",
+        "descrição": "Bebida refrescante à base de vinho tinto, frutas cítricas e especiarias.",
+        "categoria": 10,
+        "img": "../img/alchool/fermentadas/Sangria Espanhola.svg",
+        "valor": 12.0
+      }
+    ]
   },
-  "nao_alcoolicas": {
-    "nome": "Bebidas Não Alcoolicas",
+  {
+    "categoria": "Bebidas Alcoolicas",
+    "tipo": "Destiladas",
+    "produtos": [
+      {
+        "nome": "Licor de Mel",
+        "descrição": "Licor doce e aromático com sabor de mel puro.",
+        "categoria": 5,
+        "img": "../img/alchool/destiladas/Licor de Mel.svg",
+        "valor": 18.0
+      },
+      {
+        "nome": "Licor de Café",
+        "descrição": "Licor cremoso com sabor intenso de café e toques de baunilha.",
+        "categoria": 5,
+        "img": "../img/alchool/destiladas/Licor Coffee.svg",
+        "valor": 20.0
+      },
+      {
+        "nome": "Gin Sloe",
+        "descrição": "Gin inglês infusionado com ameixas sloe, suave e frutado.",
+        "categoria": 21,
+        "img": "../img/alchool/destiladas/Sloe Gin.svg",
+        "valor": 25.0
+      },
+      {
+        "nome": "Licor de Cereja",
+        "descrição": "Licor adocicado com sabor de cerejas maduras.",
+        "categoria": 5,
+        "img": "../img/alchool/destiladas/Licor Cherry.svg",
+        "valor": 20.0
+      },
+      {
+        "nome": "Tequila Blanco",
+        "descrição": "Tequila branca pura, com sabor suave e aroma agave fresco.",
+        "categoria": 13,
+        "img": "../img/alchool/destiladas/Tequila Blanco.svg",
+        "valor": 30.0
+      },
+      {
+        "nome": "Vermute Seco",
+        "descrição": "Vermute aromatizado com ervas e especiarias, seco e refrescante.",
+        "categoria": 14,
+        "img": "../img/alchool/destiladas/Vermute Extra Dry Martini.svg",
+        "valor": 20.0
+      },
+      {
+        "nome": "Licor de Amêndoa",
+        "descrição": "Licor doce com sabor intenso de amêndoas e notas de baunilha.",
+        "categoria": 5,
+        "img": "../img/alchool/destiladas/Licor Amendoas.svg",
+        "valor": 22.0
+      },
+      {
+        "nome": "Grappa Italiana",
+        "descrição": "Grappa destilada com bagaço de uva, com sabor intenso e aroma frutado.",
+        "categoria": 16,
+        "img": "../img/alchool/destiladas/Grappa Italy.svg",
+        "valor": 30.0
+      },
+      {
+        "nome": "Absinto Tradicional",
+        "descrição": "Absinto clássico com teor alcoólico elevado e notas herbáceas.",
+        "categoria": 17,
+        "img": "../img/alchool/destiladas/Absinto Tradicional.svg",
+        "valor": 50.0
+      },
+      {
+        "nome": "Gin London Dry",
+        "descrição": "Gin clássico com zimbro e notas cítricas.",
+        "categoria": 21,
+        "img": "../img/alchool/destiladas/London Dry Gin.svg",
+        "valor": 35.0
+      },
+      {
+        "nome": "Vodka Premium",
+        "descrição": "Vodka pura com suavidade e leveza.",
+        "categoria": 18,
+        "img": "../img/alchool/destiladas/Vodka Premium.svg",
+        "valor": 25.0
+      },
+      {
+        "nome": "Whisky Escocês Single Malt",
+        "descrição": "Whisky envelhecido em barris de carvalho, com notas de fumaça e frutas secas.",
+        "categoria": 11,
+        "img": "../img/alchool/destiladas/Whisky Escocês Single Malt.svg",
+        "valor": 60.0
+      }
+    ]
+  },
+  {
+    "categoria": "Bebidas Não Alcoolicas",
     "produtos": [
       {
         "nome": "Refrigerante Cola",
         "descrição": "Refrigerante gaseificado com sabor de cola.",
         "categoria": 22,
+        "img": "../img/non-alchool/Refrigerante Cola.svg",
         "valor": 3.0
       },
       {
         "nome": "Suco Natural de Laranja",
         "descrição": "Suco de laranja fresco e natural, sem adição de açúcar.",
         "categoria": 23,
+        "img": "../img/non-alchool/Suco Natural de Laranja.svg",
         "valor": 5.0
       },
       {
         "nome": "Água Mineral Sem Gás",
         "descrição": "Água mineral purificada e sem gás.",
         "categoria": 27,
+        "img": "../img/non-alchool/Água Mineral Sem Gás.svg",
         "valor": 2.5
       },
       {
         "nome": "Suco de Uva Integral",
         "descrição": "Suco de uva natural e integral, sem adição de açúcar ou conservantes.",
         "categoria": 23,
+        "img": "../img/non-alchool/Suco de Uva Integral.svg",
         "valor": 6.0
       },
       {
         "nome": "Chá Verde Orgânico",
         "descrição": "Chá verde orgânico e antioxidante, refrescante e revigorante.",
         "categoria": 24,
+        "img": "../img/non-alchool/Chá Verde Orgânico.svg",
         "valor": 4.0
-      },
-      {
-        "nome": "Smoothie de Frutas Tropicais",
-        "descrição": "Smoothie refrescante com mistura de frutas tropicais e iogurte natural.",
-        "categoria": 25,
-        "valor": 6.5
       },
       {
         "nome": "Água de Coco Natural",
         "descrição": "Água de coco pura e natural, rica em eletrólitos e nutrientes.",
         "categoria": 27,
+        "img": "../img/non-alchool/Água de Coco Natural.svg",
         "valor": 4.5
       },
       {
         "nome": "Limonada Caseira",
         "descrição": "Limonada fresca feita com limões orgânicos e açúcar natural.",
         "categoria": 23,
+        "img": "../img/non-alchool/Limonada Caseira.svg",
         "valor": 3.5
-      },
-      {
-        "nome": "Energético Natural",
-        "descrição": "Bebida energética natural, sem adição de taurina ou cafeína sintética.",
-        "categoria": 26,
-        "valor": 5.0
       },
       {
         "nome": "Suco Detox",
         "descrição": "Suco detox feito com ingredientes orgânicos, para desintoxicar e revitalizar o organismo.",
         "categoria": 23,
+        "img": "../img/non-alchool/Suco Detox.svg",
         "valor": 6.0
       },
       {
         "nome": "Iced Tea de Pêssego",
         "descrição": "Chá gelado de pêssego naturalmente adocicado e refrescante.",
         "categoria": 24,
+        "img": "../img/non-alchool/Iced Tea de Pêssego.svg",
         "valor": 4.5
       },
       {
         "nome": "Smoothie de Açaí",
         "descrição": "Smoothie energizante com polpa de açaí, banana e granola.",
         "categoria": 25,
+        "img": "../img/non-alchool/Smoothie de Açaí.svg",
         "valor": 7.0
       },
       {
         "nome": "Mate Gelado",
         "descrição": "Mate gelado naturalmente adocicado e revitalizante.",
         "categoria": 24,
+        "img": "../img/non-alchool/Mate Gelado.svg",
         "valor": 3.5
       },
       {
         "nome": "Suco de Abacaxi com Hortelã",
         "descrição": "Suco de abacaxi fresco com toque de hortelã, refrescante e delicioso.",
         "categoria": 23,
+        "img": "../img/non-alchool/Suco de Abacaxi com Hortelã.svg",
         "valor": 5.5
       },
       {
         "nome": "Água de Limão",
         "descrição": "Água de limão naturalmente aromatizada, com toque cítrico e refrescante.",
         "categoria": 27,
+        "img": "../img/non-alchool/Água de Limão.svg",
         "valor": 3.0
       },
       {
         "nome": "Chá de Hibisco",
         "descrição": "Chá de hibisco naturalmente adocicado, com propriedades antioxidantes.",
         "categoria": 24,
+        "img": "../img/non-alchool/Chá de Hibisco.svg",
         "valor": 4.0
       },
       {
         "nome": "Smoothie de Morango com Banana",
         "descrição": "Smoothie cremoso e nutritivo com morangos frescos e banana madura.",
         "categoria": 25,
+        "img": "../img/non-alchool/Smoothie de Morango com Banana.svg",
         "valor": 6.5
       },
       {
         "nome": "Refresco de Maracujá",
         "descrição": "Refresco natural de maracujá, com sabor tropical e aroma envolvente.",
         "categoria": 23,
+        "img": "../img/non-alchool/Refresco de Maracujá.svg",
         "valor": 4.5
-      },
-      {
-        "nome": "Água Tônica Premium",
-        "descrição": "Água tônica premium, com notas de quinino e aromas cítricos.",
-        "categoria": 22,
-        "valor": 4.0
-      },
-      {
-        "nome": "Smoothie Detox de Couve",
-        "descrição": "Smoothie detox com couve, abacaxi e gengibre, purificante e revitalizante.",
-        "categoria": 25,
-        "valor": 6.5
-      },
-      {
-        "nome": "Chá de Camomila",
-        "descrição": "Chá de camomila relaxante e reconfortante, ideal para momentos de tranquilidade.",
-        "categoria": 24,
-        "valor": 3.5
       },
       {
         "nome": "Iced Coffee",
         "descrição": "Café gelado aromatizado com baunilha e levemente adoçado.",
         "categoria": 24,
+        "img": "../img/non-alchool/Iced Coffee.svg",
         "valor": 4.5
-      },
-      {
-        "nome": "Suco de Melancia",
-        "descrição": "Suco refrescante de melancia, hidratante e revitalizante.",
-        "categoria": 23,
-        "valor": 5.0
-      },
-      {
-        "nome": "Água de Rosas",
-        "descrição": "Água de rosas pura e natural, com propriedades calmantes e refrescantes.",
-        "categoria": 27,
-        "valor": 4.0
       }
     ]
   },
-  "churrasco": {
-    "nome": "Churrasco",
+  {
+    "categoria": "Churrasco",
     "produtos": [
       {
         "nome": "Alcatra Suína",
         "descrição": "Corte de carne bovina macio e suculento.",
         "categoria": 28,
+        "img": "../img/meats/Alcatra Suína.svg",
         "valor": 25.0
       },
       {
         "nome": "Alcatra Bovina",
         "descrição": "Corte de carne bovina macio e suculento.",
         "categoria": 28,
+        "img": "../img/meats/Alcatra Bovina.svg",
         "valor": 25.0
       },
       {
         "nome": "Picanha Angus",
         "descrição": "Corte de carne bovina macio e suculento.",
         "categoria": 28,
+        "img": "../img/meats/Picanha Angus.svg",
         "valor": 25.0
       },
       {
         "nome": "Costela Suína Defumada",
         "descrição": "Costela suína defumada lentamente, com sabor marcante.",
         "categoria": 29,
+        "img": "../img/meats/Costela Bovina.svg",
         "valor": 18.0
       },
       {
         "nome": "Linguiça Artesanal",
         "descrição": "Linguiça fresca temperada e preparada artesanalmente.",
         "categoria": 30,
+        "img": "../img/meats/Linguiça Artesanal.svg",
         "valor": 12.0
       },
       {
         "nome": "Asa de Frango Temperada",
         "descrição": "Asa de frango marinada em temperos especiais, pronta para grelhar.",
         "categoria": 31,
+        "img": "../img/meats/Asa de Frango Temperada.svg",
         "valor": 10.0
       },
       {
         "nome": "Pão de Alho",
         "descrição": "Pão francês recheado com alho e ervas, perfeito para acompanhar o churrasco.",
         "categoria": 32,
+        "img": "../img/meats/Pão de Alho.svg",
         "valor": 5.0
       },
       {
         "nome": "Queijo Coalho",
         "descrição": "Queijo coalho fresco, ideal para assar na churrasqueira até ficar dourado e crocante.",
         "categoria": 33,
+        "img": "../img/meats/Queijo Coalho.svg",
         "valor": 8.0
-      },
-      {
-        "nome": "Tomate Cereja Grelhado",
-        "descrição": "Tomates cereja grelhados com azeite e ervas, acompanhamento leve e saboroso.",
-        "categoria": 32,
-        "valor": 6.0
       },
       {
         "nome": "Salada de Maionese",
         "descrição": "Salada cremosa de batata, cenoura e maionese, clássico acompanhamento de churrasco.",
         "categoria": 32,
+        "img": "../img/meats/Salada de Maionese.svg",
         "valor": 8.0
       },
       {
         "nome": "Farofa Crocante",
         "descrição": "Farofa de mandioca crocante, temperada com bacon, cebola e ovos.",
         "categoria": 34,
+        "img": "../img/meats/Farofa Crocante.svg",
         "valor": 6.0
-      },
-      {
-        "nome": "Cebola Caramelizada",
-        "descrição": "Cebolas caramelizadas lentamente em açúcar e vinagre balsâmico, adocicadas e macias.",
-        "categoria": 32,
-        "valor": 7.0
       },
       {
         "nome": "Molho Barbecue Artesanal",
         "descrição": "Molho barbecue caseiro, defumado e levemente adocicado, perfeito para carnes grelhadas.",
         "categoria": 32,
+        "img": "../img/meats/Molho Barbecue Artesanal.svg",
         "valor": 8.0
-      },
-      {
-        "nome": "Batata Assada com Alecrim",
-        "descrição": "Batatas assadas no forno com alecrim fresco e azeite, acompanhamento aromático e delicioso.",
-        "categoria": 32,
-        "valor": 7.0
-      },
-      {
-        "nome": "Queijo Coalho com Mel",
-        "descrição": "Queijo coalho grelhado e regado com mel, contraste perfeito entre salgado e doce.",
-        "categoria": 33,
-        "valor": 9.0
       },
       {
         "nome": "Espetinho de Legumes",
         "descrição": "Espetinhos coloridos de legumes grelhados, saudáveis e saborosos.",
         "categoria": 32,
+        "img": "../img/meats/Espetinho de Legumes.svg",
         "valor": 8.0
       },
       {
         "nome": "Molho Chimichurri",
         "descrição": "Molho argentino à base de ervas, alho, vinagre e azeite, ideal para carnes.",
         "categoria": 32,
+        "img": "../img/meats/Molho Chimichurri.svg",
         "valor": 7.0
       },
       {
         "nome": "Milho Grelhado com Manteiga",
         "descrição": "Espigas de milho grelhadas e servidas com manteiga derretida, clássico de churrasco.",
         "categoria": 32,
+        "img": "../img/meats/Milho Grelhado com Manteiga.svg",
         "valor": 5.0
-      },
-      {
-        "nome": "Brócolis Grelhado com Parmesão",
-        "descrição": "Brócolis grelhados com queijo parmesão ralado, acompanhamento saudável e saboroso.",
-        "categoria": 32,
-        "valor": 6.0
       },
       {
         "nome": "Molho de Alho",
         "descrição": "Molho cremoso de alho, suave e aromático, ideal para carnes grelhadas.",
         "categoria": 32,
+        "img": "../img/meats/Molho de Alho.svg",
         "valor": 7.0
       },
       {
         "nome": "Pão de Cebola",
         "descrição": "Pão de cebola macio e aromático, perfeito para sanduíches de churrasco.",
         "categoria": 32,
+        "img": "../img/meats/Pão de Cebola.svg",
         "valor": 4.0
       },
       {
         "nome": "Maminha",
         "descrição": "Corte macio e suculento, muito apreciado em churrascos.",
         "categoria": 28,
+        "img": "../img/meats/Maminha.svg",
         "valor": 30.0
       },
       {
         "nome": "Fraldinha",
         "descrição": "Corte saboroso e com boa textura, também conhecido como 'vazio'.",
         "categoria": 28,
+        "img": "../img/meats/Fraldinha.svg",
         "valor": 28.0
       },
       {
         "nome": "Costela Bovina",
         "descrição": "Opção suculenta e cheia de sabor, especialmente se preparada lentamente.",
         "categoria": 28,
+        "img": "../img/meats/Costela Bovina.svg",
         "valor": 22.0
       },
       {
         "nome": "Picanha Suína",
         "descrição": "Uma alternativa à tradicional picanha bovina, com um sabor único e suculento.",
         "categoria": 29,
+        "img": "../img/meats/Picanha Suína.svg",
         "valor": 20.0
       },
       {
         "nome": "Cupim",
         "descrição": "Um corte que fica muito saboroso quando preparado na churrasqueira, com uma textura macia e suculenta.",
         "categoria": 28,
+        "img": "../img/meats/Cupim Bovino.svg",
         "valor": 30.0
       }
     ]
   }
-}
+]
