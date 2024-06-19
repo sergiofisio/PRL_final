@@ -9,7 +9,7 @@ const subcategoryDivs = [];
 const produtos = [];
 
 $.ajax({
-  url: "../database/products.json",
+  url: "../php/database.php",
   dataType: "json",
   type: "GET",
   contentType: "application/json",
@@ -23,6 +23,8 @@ $.ajax({
 })
 
   .done(function (data) {
+    console.log({ data });
+
     for (const products of data) {
       try {
         if (!categories.includes(products.categoria)) {
