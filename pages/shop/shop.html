@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="../../css/global.css" />
     <title>SYGLA - Tudo para o seu churrasco</title>
   </head>
-  <body>
+  <body class="bodyShop">
     <header>
       <a href="#">
         <img src="../../img/logo.svg" alt="Logo Sygla" class="logoLoja" />
@@ -43,27 +43,34 @@
           </div>
         </div>
       </nav>
+      <div class="cartValue">
+        <img src="../../img/icons/cart.svg" alt="" />
+        <h2 class="m-0 fs-5" id="valueCart"></h2>
+      </div>
     </header>
     <main class="shop">
       <aside class="bg-white">
         <h1 class="text-center text-capitalize fs-2 red">Filtrar</h1>
-        <!-- <div class="border-2 border-bottom">
-          <h2 class="m-0 text-capitalize fs-5 red">
-            categoria
-            <img src="../../img/icons/arrowsDown.svg" alt="icon arrow down" />
-          </h2>
-          <div><h2 class="m-0 text-capitalize fs-6 red">subcategoria</h2></div>
-        </div>
-        <div>
-          <h2 class="m-0 text-capitalize fs-5 red gap d-flex">
-            categoria
-            <img src="../../img/icons/arrowsDown.svg" alt="icon arrow down" />
-          </h2>
-          <div><h2 class="m-0 text-capitalize fs-6 red">subcategoria</h2></div>
-        </div> -->
       </aside>
       <section><h2 id="response"></h2></section>
     </main>
+    <div class="modalShop hidden">
+      <div class="modalContent">
+        <h2 class="closedButton">X</h2>
+        <h2>Seu carrinho</h2>
+        <table>
+          <thead>
+            <tr>
+              <th class="tableImg"></th>
+              <th class="tableName">Produto</th>
+              <th class="tableQtt">Quantidade</th>
+              <th class="tablePrice">Preço</th>
+            </tr>
+          </thead>
+          <tbody id="cart"></tbody>
+        </table>
+      </div>
+    </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script type="module" src="../../js/script.js"></script>
   </body>
