@@ -2,11 +2,46 @@ const aside = document.querySelector("aside");
 const section = document.querySelector("section");
 const response = document.querySelector("#response");
 
-const categories = [];
+const categories = new Set();
+let produtos = [];
 
-const subcategoryDivs = [];
+function renderProducts(products) {
+  section.innerHTML = "";
+  for (const product of products) {
+    const div = document.createElement("div");
+    const img = document.createElement("img");
+    const h2 = document.createElement("h2");
+    const h3 = document.createElement("h3");
+    const button = document.createElement("button");
 
-const produtos = [];
+    div.classList.add("product", "position-relative");
+    img.src = product.img;
+    img.alt = `image ${product.nome}`;
+    h2.textContent = product.nome;
+    h2.classList.add("m-0", "text-capitalize", "fs-5");
+    h3.textContent = product.valor.toLocaleString("pt-BR", {
+      style: "currency",
+      currency: "BRL",
+    });
+    h3.classList.add("m-0", "text-capitalize", "fs-6");
+    button.textContent = "Adicionar ao carrinho";
+
+    button.addEventListener("click", function () {
+      const cart = JSON.parse(localStorage.getItem("cart")) || [];
+
+      if (cart.some((cartProduct) => cartProduct.nome === product.nome)) {
+        return alert("Esse item ja foi adicionado ao carrinho");
+      }
+
+      cart.push(product);
+
+      localStorage.setItem("cart", JSON.stringify(cart));
+    });
+
+    section.appendChild(div);
+    div.append(img, h2, h3, button);
+  }
+}
 
 $.ajax({
   url: "../../php/database.php",
@@ -20,53 +55,19 @@ $.ajax({
 })
 
   .done(function (data) {
-    console.log({ data });
-
     setTimeout(() => {
       response.textContent = "";
 
       for (const products of data) {
         try {
-          if (!categories.includes(products.categoria)) {
-            categories.push(products.categoria);
-          }
-          products.produtos.forEach((product) => {
-            produtos.push(product);
-          });
+          categories.add(products.categoria);
+          produtos.push(...products.produtos);
         } catch (error) {
           console.log({ error });
         }
       }
-      for (const product of produtos) {
-        const div = document.createElement("div");
-        const img = document.createElement("img");
-        const h2 = document.createElement("h2");
-        const h3 = document.createElement("h3");
-        const button = document.createElement("button");
+      renderProducts(produtos);
 
-        div.classList.add("product", "position-relative");
-        img.src = product.img;
-        img.alt = `image ${product.nome}`;
-        h2.textContent = product.nome;
-        h2.classList.add("m-0", "text-capitalize", "fs-5");
-        h3.textContent = product.valor.toLocaleString("pt-BR", {
-          style: "currency",
-          currency: "BRL",
-        });
-        h3.classList.add("m-0", "text-capitalize", "fs-6");
-        button.textContent = "Adicionar ao carrinho";
-
-        button.addEventListener("click", function () {
-          const cart = JSON.parse(localStorage.getItem("cart")) || [];
-
-          cart.push(product);
-
-          localStorage.setItem("cart", JSON.stringify(cart));
-        });
-
-        section.appendChild(div);
-        div.append(img, h2, h3, button);
-      }
       categories.forEach((category) => {
         const categoryDiv = document.createElement("div");
         const subcategoryDiv = document.createElement("div");
@@ -88,11 +89,9 @@ $.ajax({
         categoryDiv.appendChild(h2);
         aside.appendChild(categoryDiv);
         subcategoryDiv.style.display = "none";
-        subcategoryDivs.push(subcategoryDiv);
+
         h2.addEventListener("click", function () {
           const isCurrentlyVisible = subcategoryDiv.style.display === "block";
-
-          subcategoryDivs.forEach((div) => (div.style.display = "none"));
 
           subcategoryDiv.style.display = isCurrentlyVisible ? "none" : "block";
         });
@@ -104,6 +103,8 @@ $.ajax({
           contentType: "application/json",
         })
           .done(function (subcategories) {
+            console.log({ subcategories });
+
             let categories = subcategories[0].categorias;
             for (let i = 0; i < categories.length; i++) {
               if (categories[i].tipo === category) {
@@ -117,6 +118,13 @@ $.ajax({
                   "red"
                 );
 
+                h2.addEventListener("click", function () {
+                  const filterProducts = produtos.filter(
+                    (produto) => produto.categoria === categories[i].id
+                  );
+                  renderProducts(filterProducts);
+                });
+
                 subcategoryDiv.appendChild(h2);
                 categoryDiv.appendChild(subcategoryDiv);
               }
@@ -126,6 +134,12 @@ $.ajax({
             console.error("Error:", textStatus, errorThrown);
           });
       });
+      const button = document.createElement("button");
+      button.textContent = "Mostrar todos os produtos";
+      button.addEventListener("click", function () {
+        renderProducts(produtos);
+      });
+      aside.appendChild(button);
     }, 2000);
   })
   .fail(function (_, textStatus, errorThrown) {
