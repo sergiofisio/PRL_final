@@ -7,77 +7,77 @@
         "nome": "Vinho Tinto Cabernet Sauvignon",
         "descrição": "Vinho encorpado com notas de frutas vermelhas e especiarias.",
         "categoria": 2,
-        "img": "../img/alchool/fermentadas/Cabernet Sauvignon_.svg",
+        "img": "../../img/alchool/fermentadas/Cabernet Sauvignon_.svg",
         "valor": 45.0
       },
       {
         "nome": "Cerveja IPA Artesanal",
         "descrição": "Cerveja lupulada com aroma cítrico e amargor equilibrado.",
         "categoria": 1,
-        "img": "../img/alchool/fermentadas/IPA artesanal.svg",
+        "img": "../../img/alchool/fermentadas/IPA artesanal.svg",
         "valor": 7.5
       },
       {
         "nome": "Cidra Artesanal",
         "descrição": "Cidra refrescante com sabor de maçãs frescas e levemente ácido.",
         "categoria": 4,
-        "img": "../img/alchool/fermentadas/Cidra de Pera.svg",
+        "img": "../../img/alchool/fermentadas/Cidra de Pera.svg",
         "valor": 8.0
       },
       {
         "nome": "Vinho Branco Chardonnay",
         "descrição": "Vinho fresco com aromas de frutas tropicais e toques de baunilha.",
         "categoria": 2,
-        "img": "../img/alchool/fermentadas/Branco Chardonnay.svg",
+        "img": "../../img/alchool/fermentadas/Branco Chardonnay.svg",
         "valor": 30.0
       },
       {
         "nome": "Cachaça Artesanal",
         "descrição": "Cachaça pura envelhecida em barris de carvalho.",
         "categoria": 7,
-        "img": "../img/alchool/fermentadas/Aguardiente Antioqueño.svg",
+        "img": "../../img/alchool/fermentadas/Aguardiente Antioqueño.svg",
         "valor": 12.0
       },
       {
         "nome": "Vinho Rosé Provence",
         "descrição": "Vinho rosé leve e refrescante, com aromas de frutas vermelhas.",
         "categoria": 2,
-        "img": "../img/alchool/fermentadas/Rose Provence.svg",
+        "img": "../../img/alchool/fermentadas/Rose Provence.svg",
         "valor": 18.0
       },
       {
         "nome": "Sakê Premium Junmai",
         "descrição": "Sake japonês puro com aroma floral e sabor suave.",
         "categoria": 9,
-        "img": "../img/alchool/fermentadas/Sake Premium Junmai.svg",
+        "img": "../../img/alchool/fermentadas/Sake Premium Junmai.svg",
         "valor": 25.0
       },
       {
         "nome": "Vinho Porto Tawny",
         "descrição": "Vinho do Porto encorpado e adocicado, com notas de frutas secas.",
         "categoria": 2,
-        "img": "../img/alchool/fermentadas/Porto Tawny.svg",
+        "img": "../../img/alchool/fermentadas/Porto Tawny.svg",
         "valor": 40.0
       },
       {
         "nome": "Cerveja Weissbier",
         "descrição": "Cerveja de trigo alemã, leve e refrescante, com notas de banana e cravo.",
         "categoria": 1,
-        "img": "../img/alchool/fermentadas/Weissbier.svg",
+        "img": "../../img/alchool/fermentadas/Weissbier.svg",
         "valor": 6.0
       },
       {
         "nome": "Cidra de Pêra",
         "descrição": "Cidra suave e frutada com sabor de pêras frescas.",
         "categoria": 4,
-        "img": "../img/alchool/fermentadas/Cidra de Pera.svg",
+        "img": "../../img/alchool/fermentadas/Cidra de Pera.svg",
         "valor": 10.0
       },
       {
         "nome": "Sangria Espanhola",
         "descrição": "Bebida refrescante à base de vinho tinto, frutas cítricas e especiarias.",
         "categoria": 10,
-        "img": "../img/alchool/fermentadas/Sangria Espanhola.svg",
+        "img": "../../img/alchool/fermentadas/Sangria Espanhola.svg",
         "valor": 12.0
       }
     ]
@@ -90,84 +90,84 @@
         "nome": "Licor de Mel",
         "descrição": "Licor doce e aromático com sabor de mel puro.",
         "categoria": 5,
-        "img": "../img/alchool/destiladas/Licor de Mel.svg",
+        "img": "../../img/alchool/destiladas/Licor de Mel.svg",
         "valor": 18.0
       },
       {
         "nome": "Licor de Café",
         "descrição": "Licor cremoso com sabor intenso de café e toques de baunilha.",
         "categoria": 5,
-        "img": "../img/alchool/destiladas/Licor Coffee.svg",
+        "img": "../../img/alchool/destiladas/Licor Coffee.svg",
         "valor": 20.0
       },
       {
         "nome": "Gin Sloe",
         "descrição": "Gin inglês infusionado com ameixas sloe, suave e frutado.",
         "categoria": 21,
-        "img": "../img/alchool/destiladas/Sloe Gin.svg",
+        "img": "../../img/alchool/destiladas/Sloe Gin.svg",
         "valor": 25.0
       },
       {
         "nome": "Licor de Cereja",
         "descrição": "Licor adocicado com sabor de cerejas maduras.",
         "categoria": 5,
-        "img": "../img/alchool/destiladas/Licor Cherry.svg",
+        "img": "../../img/alchool/destiladas/Licor Cherry.svg",
         "valor": 20.0
       },
       {
         "nome": "Tequila Blanco",
         "descrição": "Tequila branca pura, com sabor suave e aroma agave fresco.",
         "categoria": 13,
-        "img": "../img/alchool/destiladas/Tequila Blanco.svg",
+        "img": "../../img/alchool/destiladas/Tequila Blanco.svg",
         "valor": 30.0
       },
       {
         "nome": "Vermute Seco",
         "descrição": "Vermute aromatizado com ervas e especiarias, seco e refrescante.",
         "categoria": 14,
-        "img": "../img/alchool/destiladas/Vermute Extra Dry Martini.svg",
+        "img": "../../img/alchool/destiladas/Vermute Extra Dry Martini.svg",
         "valor": 20.0
       },
       {
         "nome": "Licor de Amêndoa",
         "descrição": "Licor doce com sabor intenso de amêndoas e notas de baunilha.",
         "categoria": 5,
-        "img": "../img/alchool/destiladas/Licor Amendoas.svg",
+        "img": "../../img/alchool/destiladas/Licor Amendoas.svg",
         "valor": 22.0
       },
       {
         "nome": "Grappa Italiana",
         "descrição": "Grappa destilada com bagaço de uva, com sabor intenso e aroma frutado.",
         "categoria": 16,
-        "img": "../img/alchool/destiladas/Grappa Italy.svg",
+        "img": "../../img/alchool/destiladas/Grappa Italy.svg",
         "valor": 30.0
       },
       {
         "nome": "Absinto Tradicional",
         "descrição": "Absinto clássico com teor alcoólico elevado e notas herbáceas.",
         "categoria": 17,
-        "img": "../img/alchool/destiladas/Absinto Tradicional.svg",
+        "img": "../../img/alchool/destiladas/Absinto Tradicional.svg",
         "valor": 50.0
       },
       {
         "nome": "Gin London Dry",
         "descrição": "Gin clássico com zimbro e notas cítricas.",
         "categoria": 21,
-        "img": "../img/alchool/destiladas/London Dry Gin.svg",
+        "img": "../../img/alchool/destiladas/London Dry Gin.svg",
         "valor": 35.0
       },
       {
         "nome": "Vodka Premium",
         "descrição": "Vodka pura com suavidade e leveza.",
         "categoria": 18,
-        "img": "../img/alchool/destiladas/Vodka Premium.svg",
+        "img": "../../img/alchool/destiladas/Vodka Premium.svg",
         "valor": 25.0
       },
       {
         "nome": "Whisky Escocês Single Malt",
         "descrição": "Whisky envelhecido em barris de carvalho, com notas de fumaça e frutas secas.",
         "categoria": 11,
-        "img": "../img/alchool/destiladas/Whisky Escocês Single Malt.svg",
+        "img": "../../img/alchool/destiladas/Whisky Escocês Single Malt.svg",
         "valor": 60.0
       }
     ]
@@ -179,119 +179,119 @@
         "nome": "Refrigerante Cola",
         "descrição": "Refrigerante gaseificado com sabor de cola.",
         "categoria": 22,
-        "img": "../img/non-alchool/Refrigerante Cola.svg",
+        "img": "../../img/non-alchool/Refrigerante Cola.svg",
         "valor": 3.0
       },
       {
         "nome": "Suco Natural de Laranja",
         "descrição": "Suco de laranja fresco e natural, sem adição de açúcar.",
         "categoria": 23,
-        "img": "../img/non-alchool/Suco Natural de Laranja.svg",
+        "img": "../../img/non-alchool/Suco Natural de Laranja.svg",
         "valor": 5.0
       },
       {
         "nome": "Água Mineral Sem Gás",
         "descrição": "Água mineral purificada e sem gás.",
         "categoria": 27,
-        "img": "../img/non-alchool/Água Mineral Sem Gás.svg",
+        "img": "../../img/non-alchool/Água Mineral Sem Gás.svg",
         "valor": 2.5
       },
       {
         "nome": "Suco de Uva Integral",
         "descrição": "Suco de uva natural e integral, sem adição de açúcar ou conservantes.",
         "categoria": 23,
-        "img": "../img/non-alchool/Suco de Uva Integral.svg",
+        "img": "../../img/non-alchool/Suco de Uva Integral.svg",
         "valor": 6.0
       },
       {
         "nome": "Chá Verde Orgânico",
         "descrição": "Chá verde orgânico e antioxidante, refrescante e revigorante.",
         "categoria": 24,
-        "img": "../img/non-alchool/Chá Verde Orgânico.svg",
+        "img": "../../img/non-alchool/Chá Verde Orgânico.svg",
         "valor": 4.0
       },
       {
         "nome": "Água de Coco Natural",
         "descrição": "Água de coco pura e natural, rica em eletrólitos e nutrientes.",
         "categoria": 27,
-        "img": "../img/non-alchool/Água de Coco Natural.svg",
+        "img": "../../img/non-alchool/Água de Coco Natural.svg",
         "valor": 4.5
       },
       {
         "nome": "Limonada Caseira",
         "descrição": "Limonada fresca feita com limões orgânicos e açúcar natural.",
         "categoria": 23,
-        "img": "../img/non-alchool/Limonada Caseira.svg",
+        "img": "../../img/non-alchool/Limonada Caseira.svg",
         "valor": 3.5
       },
       {
         "nome": "Suco Detox",
         "descrição": "Suco detox feito com ingredientes orgânicos, para desintoxicar e revitalizar o organismo.",
         "categoria": 23,
-        "img": "../img/non-alchool/Suco Detox.svg",
+        "img": "../../img/non-alchool/Suco Detox.svg",
         "valor": 6.0
       },
       {
         "nome": "Iced Tea de Pêssego",
         "descrição": "Chá gelado de pêssego naturalmente adocicado e refrescante.",
         "categoria": 24,
-        "img": "../img/non-alchool/Iced Tea de Pêssego.svg",
+        "img": "../../img/non-alchool/Iced Tea de Pêssego.svg",
         "valor": 4.5
       },
       {
         "nome": "Smoothie de Açaí",
         "descrição": "Smoothie energizante com polpa de açaí, banana e granola.",
         "categoria": 25,
-        "img": "../img/non-alchool/Smoothie de Açaí.svg",
+        "img": "../../img/non-alchool/Smoothie de Açaí.svg",
         "valor": 7.0
       },
       {
         "nome": "Mate Gelado",
         "descrição": "Mate gelado naturalmente adocicado e revitalizante.",
         "categoria": 24,
-        "img": "../img/non-alchool/Mate Gelado.svg",
+        "img": "../../img/non-alchool/Mate Gelado.svg",
         "valor": 3.5
       },
       {
         "nome": "Suco de Abacaxi com Hortelã",
         "descrição": "Suco de abacaxi fresco com toque de hortelã, refrescante e delicioso.",
         "categoria": 23,
-        "img": "../img/non-alchool/Suco de Abacaxi com Hortelã.svg",
+        "img": "../../img/non-alchool/Suco de Abacaxi com Hortelã.svg",
         "valor": 5.5
       },
       {
         "nome": "Água de Limão",
         "descrição": "Água de limão naturalmente aromatizada, com toque cítrico e refrescante.",
         "categoria": 27,
-        "img": "../img/non-alchool/Água de Limão.svg",
+        "img": "../../img/non-alchool/Água de Limão.svg",
         "valor": 3.0
       },
       {
         "nome": "Chá de Hibisco",
         "descrição": "Chá de hibisco naturalmente adocicado, com propriedades antioxidantes.",
         "categoria": 24,
-        "img": "../img/non-alchool/Chá de Hibisco.svg",
+        "img": "../../img/non-alchool/Chá de Hibisco.svg",
         "valor": 4.0
       },
       {
         "nome": "Smoothie de Morango com Banana",
         "descrição": "Smoothie cremoso e nutritivo com morangos frescos e banana madura.",
         "categoria": 25,
-        "img": "../img/non-alchool/Smoothie de Morango com Banana.svg",
+        "img": "../../img/non-alchool/Smoothie de Morango com Banana.svg",
         "valor": 6.5
       },
       {
         "nome": "Refresco de Maracujá",
         "descrição": "Refresco natural de maracujá, com sabor tropical e aroma envolvente.",
         "categoria": 23,
-        "img": "../img/non-alchool/Refresco de Maracujá.svg",
+        "img": "../../img/non-alchool/Refresco de Maracujá.svg",
         "valor": 4.5
       },
       {
         "nome": "Iced Coffee",
         "descrição": "Café gelado aromatizado com baunilha e levemente adoçado.",
         "categoria": 24,
-        "img": "../img/non-alchool/Iced Coffee.svg",
+        "img": "../../img/non-alchool/Iced Coffee.svg",
         "valor": 4.5
       }
     ]
@@ -303,147 +303,147 @@
         "nome": "Alcatra Suína",
         "descrição": "Corte de carne bovina macio e suculento.",
         "categoria": 28,
-        "img": "../img/meats/Alcatra Suína.svg",
+        "img": "../../img/meats/Alcatra Suina.svg",
         "valor": 25.0
       },
       {
         "nome": "Alcatra Bovina",
         "descrição": "Corte de carne bovina macio e suculento.",
         "categoria": 28,
-        "img": "../img/meats/Alcatra Bovina.svg",
+        "img": "../../img/meats/Alcatra Bovina.svg",
         "valor": 25.0
       },
       {
         "nome": "Picanha Angus",
         "descrição": "Corte de carne bovina macio e suculento.",
         "categoria": 28,
-        "img": "../img/meats/Picanha Angus.svg",
+        "img": "../../img/meats/Picanha Angus.svg",
         "valor": 25.0
       },
       {
         "nome": "Costela Suína Defumada",
         "descrição": "Costela suína defumada lentamente, com sabor marcante.",
         "categoria": 29,
-        "img": "../img/meats/Costela Bovina.svg",
+        "img": "../../img/meats/Costela Bovina.svg",
         "valor": 18.0
       },
       {
         "nome": "Linguiça Artesanal",
         "descrição": "Linguiça fresca temperada e preparada artesanalmente.",
         "categoria": 30,
-        "img": "../img/meats/Linguiça Artesanal.svg",
+        "img": "../../img/meats/Linguiça Artesanal.svg",
         "valor": 12.0
       },
       {
         "nome": "Asa de Frango Temperada",
         "descrição": "Asa de frango marinada em temperos especiais, pronta para grelhar.",
         "categoria": 31,
-        "img": "../img/meats/Asa de Frango Temperada.svg",
+        "img": "../../img/meats/Asa de Frango Temperada.svg",
         "valor": 10.0
       },
       {
         "nome": "Pão de Alho",
         "descrição": "Pão francês recheado com alho e ervas, perfeito para acompanhar o churrasco.",
         "categoria": 32,
-        "img": "../img/meats/Pão de Alho.svg",
+        "img": "../../img/meats/Pão de Alho.svg",
         "valor": 5.0
       },
       {
         "nome": "Queijo Coalho",
         "descrição": "Queijo coalho fresco, ideal para assar na churrasqueira até ficar dourado e crocante.",
         "categoria": 33,
-        "img": "../img/meats/Queijo Coalho.svg",
+        "img": "../../img/meats/Queijo Coalho.svg",
         "valor": 8.0
       },
       {
         "nome": "Salada de Maionese",
         "descrição": "Salada cremosa de batata, cenoura e maionese, clássico acompanhamento de churrasco.",
         "categoria": 32,
-        "img": "../img/meats/Salada de Maionese.svg",
+        "img": "../../img/meats/Salada de Maionese.svg",
         "valor": 8.0
       },
       {
         "nome": "Farofa Crocante",
         "descrição": "Farofa de mandioca crocante, temperada com bacon, cebola e ovos.",
         "categoria": 34,
-        "img": "../img/meats/Farofa Crocante.svg",
+        "img": "../../img/meats/Farofa Crocante.svg",
         "valor": 6.0
       },
       {
         "nome": "Molho Barbecue Artesanal",
         "descrição": "Molho barbecue caseiro, defumado e levemente adocicado, perfeito para carnes grelhadas.",
         "categoria": 32,
-        "img": "../img/meats/Molho Barbecue Artesanal.svg",
+        "img": "../../img/meats/Molho Barbecue Artesanal.svg",
         "valor": 8.0
       },
       {
         "nome": "Espetinho de Legumes",
         "descrição": "Espetinhos coloridos de legumes grelhados, saudáveis e saborosos.",
         "categoria": 32,
-        "img": "../img/meats/Espetinho de Legumes.svg",
+        "img": "../../img/meats/Espetinho de Legumes.svg",
         "valor": 8.0
       },
       {
         "nome": "Molho Chimichurri",
         "descrição": "Molho argentino à base de ervas, alho, vinagre e azeite, ideal para carnes.",
         "categoria": 32,
-        "img": "../img/meats/Molho Chimichurri.svg",
+        "img": "../../img/meats/Molho Chimichurri.svg",
         "valor": 7.0
       },
       {
         "nome": "Milho Grelhado com Manteiga",
         "descrição": "Espigas de milho grelhadas e servidas com manteiga derretida, clássico de churrasco.",
         "categoria": 32,
-        "img": "../img/meats/Milho Grelhado com Manteiga.svg",
+        "img": "../../img/meats/Milho Grelhado com Manteiga.svg",
         "valor": 5.0
       },
       {
         "nome": "Molho de Alho",
         "descrição": "Molho cremoso de alho, suave e aromático, ideal para carnes grelhadas.",
         "categoria": 32,
-        "img": "../img/meats/Molho de Alho.svg",
+        "img": "../../img/meats/Molho de Alho.svg",
         "valor": 7.0
       },
       {
         "nome": "Pão de Cebola",
         "descrição": "Pão de cebola macio e aromático, perfeito para sanduíches de churrasco.",
         "categoria": 32,
-        "img": "../img/meats/Pão de Cebola.svg",
+        "img": "../../img/meats/Pão de Cebola.svg",
         "valor": 4.0
       },
       {
         "nome": "Maminha",
         "descrição": "Corte macio e suculento, muito apreciado em churrascos.",
         "categoria": 28,
-        "img": "../img/meats/Maminha.svg",
+        "img": "../../img/meats/Maminha.svg",
         "valor": 30.0
       },
       {
         "nome": "Fraldinha",
         "descrição": "Corte saboroso e com boa textura, também conhecido como 'vazio'.",
         "categoria": 28,
-        "img": "../img/meats/Fraldinha.svg",
+        "img": "../../img/meats/Fraldinha.svg",
         "valor": 28.0
       },
       {
         "nome": "Costela Bovina",
         "descrição": "Opção suculenta e cheia de sabor, especialmente se preparada lentamente.",
         "categoria": 28,
-        "img": "../img/meats/Costela Bovina.svg",
+        "img": "../../img/meats/Costela Bovina.svg",
         "valor": 22.0
       },
       {
         "nome": "Picanha Suína",
         "descrição": "Uma alternativa à tradicional picanha bovina, com um sabor único e suculento.",
         "categoria": 29,
-        "img": "../img/meats/Picanha Suína.svg",
+        "img": "../../img/meats/Picanha Suina.svg",
         "valor": 20.0
       },
       {
         "nome": "Cupim",
         "descrição": "Um corte que fica muito saboroso quando preparado na churrasqueira, com uma textura macia e suculenta.",
         "categoria": 28,
-        "img": "../img/meats/Cupim Bovino.svg",
+        "img": "../../img/meats/Cupim Bovino.svg",
         "valor": 30.0
       }
     ]
