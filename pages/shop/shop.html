@@ -38,98 +38,20 @@
                   href="../../index.html"
                   >Sair da loja</a
                 >
-                  Bebidas
-                </a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a
-                      class="dropdown-item border-2 border-top-0 border-end-0 border-start-0 border-white"
-                      href="../alcoolicas.html"
-                      >Alcoólicas</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="../naoalcoolcas.html"
-                      >Não alcoólicas</a
-                    >
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Churrasco
-                </a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a
-                      class="dropdown-item border-2 border-top-0 border-end-0 border-start-0 border-white"
-                      href="#"
-                      >Carnes</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item border-2 border-top-0 border-end-0 border-start-0 border-white"
-                      href="#"
-                      >Acessórios</a
-                    >
-                  </li>
-                  <li><a class="dropdown-item" href="#">Receitas</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Dicas
-                </a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a
-                      class="dropdown-item border-2 border-top-0 border-end-0 border-start-0 border-white"
-                      href="../dicas_churrasco.html"
-                      >Churrasco</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item"
-                      href="../dicas_drinks.html"
-                      >Drinks</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item border-3 border-top-0 border-end-0 border-start-0 border-white"
-                      href="../pages/dicas_drinks.html"
-                      >Coqueteis e Sobremesa</a
-                    >
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Loja</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Contato</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
-      <div class="cartValue">
-        <img src="../../img/icons/cart.svg" alt="" />
-        <h2 class="m-0 fs-5" id="valueCart"></h2>
+      <div class="finishShop hidden">
+        <h2 class="fs-6">
+          Para finalizar sua compra, clique aqui
+          <img src="../../img/icons/arrow.svg" alt="" />
+        </h2>
+        <div class="cartValue">
+          <img src="../../img/icons/cart.svg" alt="" />
+          <h2 class="m-0 fs-5" id="valueCart"></h2>
+        </div>
       </div>
     </header>
     <main class="shop">
@@ -141,10 +63,11 @@
     <div class="modalShop hidden">
       <div class="modalContent">
         <h2 class="closedButton">X</h2>
-        <h2>Seu carrinho</h2>
+        <h2 class="red">Seu carrinho</h2>
         <table>
           <thead>
             <tr>
+              <th class="tableTrash"></th>
               <th class="tableImg"></th>
               <th class="tableName">Produto</th>
               <th class="tableQtt">Quantidade</th>
@@ -153,6 +76,8 @@
           </thead>
           <tbody id="cart"></tbody>
         </table>
+        <h3 class="red">TOTAL: <strong class="total red"></strong></h3>
+        <button class="buy finalizar compra">Finalizar</button>
       </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
