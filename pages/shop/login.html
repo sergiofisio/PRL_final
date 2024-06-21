@@ -49,17 +49,8 @@
       </div>
     </header>
     <main class="login">
-      <form action="" method="post">
-        <div>
-          <label for="nome">Nome</label>
-          <input
-            placeholder="Digite seu nome completo"
-            type="text"
-            name="nome"
-            id="nome"
-            required
-          />
-        </div>
+      <h2>LOGIN</h2>
+      <form action="button" method="post">
         <div>
           <label for="email">E-mail</label>
           <input
@@ -67,79 +58,8 @@
             type="email"
             name="email"
             id="email"
-            required
-          />
-        </div>
-        <div>
-          <label for="phone">Telefone</label>
-          <input
-            placeholder="Digite seu telefone"
-            type="text"
-            name="phone"
-            id="phone"
-            required
-          />
-        </div>
-        <div>
-          <label for="cep">CEP</label>
-          <input
-            placeholder="Digite seu CEP"
-            type="text"
-            name="cep"
-            id="cep"
-            required
-          />
-        </div>
-        <div>
-          <label for="rua">Rua</label>
-          <input placeholder="Rua" type="text" name="rua" id="rua" required />
-        </div>
-        <div>
-          <label for="numero">Número</label>
-          <input
-            placeholder="Número"
-            type="text"
-            name="numero"
-            id="numero"
-            required
-          />
-        </div>
-        <div>
-          <label for="bairro">Bairro</label>
-          <input
-            placeholder="Bairro"
-            type="text"
-            name="bairro"
-            id="bairro"
-            required
-          />
-        </div>
-        <div>
-          <label for="complemento">complemento</label>
-          <input
-            placeholder="Complemento"
-            type="text"
-            name="complemento"
-            id="complemento"
-          />
-        </div>
-        <div>
-          <label for="cidade">Cidade</label>
-          <input
-            placeholder="Cidade"
-            type="text"
-            name="cidade"
-            id="cidade"
-            required
-          />
-        </div>
-        <div>
-          <label for="estado">Estado</label>
-          <input
-            placeholder="Estado"
-            type="text"
-            name="estado"
-            id="estado"
+            autocomplete="off"
+            value=""
             required
           />
         </div>
@@ -150,21 +70,17 @@
             type="password"
             name="senha"
             id="senha"
+            autocomplete="off"
+            value=""
             required
           />
         </div>
-        <div>
-          <label for="confirma_senha">Confirmar senha</label>
-          <input
-            placeholder="Confirme sua senha"
-            type="password"
-            name="confirma_senha"
-            id="confirma_senha"
-            required
-          />
-        </div>
-        <button type="button">Enviar</button>
+        <button type="button">Entrar</button>
+        <h2 class="fs-6 m-0">
+          Não tem cadastro? <a href="./register.html"> Clique aqui</a>
+        </h2>
       </form>
+      <h2 class="fs-6 m-0" id="response"></h2>
     </main>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script type="module" src="../../js/login.js"></script>

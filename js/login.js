@@ -1,4 +1,7 @@
 const valueCart = document.getElementById("valueCart");
+const response = document.getElementById("response");
+const submit = document.querySelector("button[type=button]");
+const inputs = document.querySelectorAll("input");
 
 function getCartProducts() {
   const numberProductsInCart = JSON.parse(localStorage.getItem("cart")) || [];
@@ -8,53 +11,37 @@ function getCartProducts() {
 
 getCartProducts();
 
-$(document).ready(function () {
-  $("#phone").mask("(00) 00000-0000");
-});
-
-$(document).ready(function () {
-  $("#email").on("blur", function () {
-    var email = $(this).val();
-    if (email.length > 0 && !validateEmail(email)) {
-      alert("E-mail inválido!");
-      $(this).focus();
+submit.addEventListener("click", function () {
+  for (const input of inputs) {
+    if (!input.value) {
+      return;
     }
-  });
-});
+  }
+  $.ajax({
+    url: "../../database/register.json",
+    dataType: "json",
+    type: "GET",
+    contentType: "application/json",
 
-function validateEmail(email) {
-  var re =
-    /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-  return re.test(String(email).toLowerCase());
-}
+    beforeSend: function () {
+      response.textContent = "Verificando";
+    },
+  })
+    .done(function (data) {
+      console.log({ data });
+      setTimeout(() => {
+        const findUser = data.find((user) => user.email === inputs[0].value);
+        console.log({ findUser });
 
-$(document).ready(function () {
-  $("#cep").blur(function () {
-    var cep = $(this).val().replace(/\D/g, "");
-    if (cep != "") {
-      var validacep = /^[0-9]{8}$/;
-      if (validacep.test(cep)) {
-        $("#rua").val("Buscando...");
-        $.getJSON(
-          "https://viacep.com.br/ws/" + cep + "/json/?callback=?",
-          function (dados) {
-            if (!("erro" in dados)) {
-              $("#rua").val(dados.logradouro);
-              $("#bairro").val(dados.bairro);
-              $("#cidade").val(dados.localidade);
-              $("#estado").val(dados.uf);
-            } else {
-              alert("CEP não encontrado.");
-              $("#rua").val("");
-              $("#bairro").val("");
-              $("#cidade").val("");
-              $("#estado").val("");
-            }
-          }
-        );
-      } else {
-        alert("Formato de CEP inválido.");
-      }
-    }
-  });
+        if (!findUser || findUser.senha !== inputs[1].value)
+          return (response.textContent = "Email e/ou Senha inválido");
+      }, 2000);
+
+      response.textContent = "Login efetuado com sucesso";
+    })
+    .fail(function (_, textStatus, errorThrown) {
+      console.error("Error:", textStatus, errorThrown);
+      response.textContent =
+        "Falha no sistema, favor entrar em contato com o suporte através do telefone/whatsapp (11) 99999-9999 ou email suporte@sygla.com.br";
+    });
 });

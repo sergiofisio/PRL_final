@@ -1,0 +1,16 @@
+[
+  {
+    "nome": "sergio",
+    "email": "teste@teste.com.br",
+    "phone": "(11) 96593-2620",
+    "endereco": {
+      "cep": "09710212",
+      "rua": "Rua Municipal",
+      "numero": "507",
+      "complemento": "apto 102",
+      "bairro": "SP",
+      "cidade": "S\u00e3o Bernardo do Campo"
+    },
+    "senha": "123456"
+  }
+]
