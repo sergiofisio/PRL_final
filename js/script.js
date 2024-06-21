@@ -8,8 +8,13 @@ const closedButton = document.querySelector(".closedButton");
 const total = document.querySelector(".total");
 const finish = document.querySelector(".finishShop");
 
+const logged = localStorage.getItem("logado") || false;
+
 const buyButton = document.querySelector(".buy");
 buyButton.addEventListener("click", () => {
+  if (logged === "true") {
+    return (window.location.href = "./cart.html");
+  }
   window.location.href = "./login.html";
 });
 

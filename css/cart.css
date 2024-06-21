@@ -1,0 +1,42 @@
+.bodyCart {
+  display: flex;
+  height: calc(100vh - 80px);
+  max-width: 100vw;
+}
+
+.cart {
+  height: 100%;
+  background-color: aquamarine;
+}
+
+.cart section {
+  display: flex;
+  width: 50%;
+}
+
+.cart table {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.cart thead {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.cart thead tr {
+  display: flex;
+  width: 100%;
+}
+
+.cart .tableImg {
+  width: 10% !important;
+}
+
+.cart .tableName,
+.cart .tableQtt,
+.cart .tablePrice {
+  width: 30% !important;
+}

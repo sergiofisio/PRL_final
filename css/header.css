@@ -27,8 +27,19 @@ header {
 .navbar-nav {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  gap: 3rem;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.nav-item {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  border-right: 2px solid #800;
+}
+
+.nav-item:last-of-type {
+  border-right: none;
 }
 
 .dropdown-menu {
@@ -64,11 +75,10 @@ header .logoLoja {
   width: 50px;
 }
 
-.cabecalho_dicas{
+.cabecalho_dicas {
   background-color: #800000 !important;
 }
 
-.cabecalho_dicas .nav-link{
+.cabecalho_dicas .nav-link {
   color: white !important;
 }
-

@@ -6,7 +6,7 @@
   max-width: 100vw;
 }
 
-section {
+.login section {
   height: 100%;
   width: 50%;
 }
@@ -49,16 +49,19 @@ section {
 }
 
 .login button {
+  border-radius: 1rem;
+  padding: 0 1rem;
+}
+
+.btnLogin {
   color: #fff;
   background-color: #800;
   border: 2px solid #800;
-  border-radius: 1rem;
-  padding: 0 1rem;
 
-  transition: all 0.2rem solid;
+  transition: all 0.2s ease-in-out;
 }
 
-.login button:hover {
+.btnLogin:hover {
   background-color: #fff;
   color: #800;
 }

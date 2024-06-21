@@ -155,7 +155,7 @@ aside button:hover {
   display: none !important;
 }
 
-table {
+.modalShop table {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -163,21 +163,21 @@ table {
   overflow-y: auto;
 }
 
-table::-webkit-scrollbar {
+.modalShop table::-webkit-scrollbar {
   width: 10px;
 }
 
-table::-webkit-scrollbar-track {
+.modalShop table::-webkit-scrollbar-track {
   background: #f1f1f1;
 }
 
-table::-webkit-scrollbar-thumb {
+.modalShop table::-webkit-scrollbar-thumb {
   background: #800000;
 
   border-radius: 10px;
 }
 
-table::-webkit-scrollbar-thumb:hover {
+.modalShop table::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
 
@@ -185,26 +185,26 @@ table::-webkit-scrollbar-thumb:hover {
   height: 100px;
 }
 
-thead,
-tbody {
+.modalShop thead,
+.modalShop tbody {
   display: flex;
   width: 100%;
   border-bottom: 1px solid #800;
 }
 
-tbody {
+.modalShop tbody {
   flex-direction: column;
   gap: 1rem;
 }
 
-tr {
+.modalShop tr {
   border-bottom: 1px solid #800;
   padding: 1rem 0;
   width: 100%;
 }
 
-tr,
-th {
+.modalShop tr,
+.modalShop th {
   display: flex;
   justify-content: center;
   align-items: center;

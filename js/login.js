@@ -1,7 +1,23 @@
 const valueCart = document.getElementById("valueCart");
-const response = document.getElementById("response");
 const submit = document.querySelector("button[type=button]");
 const inputs = document.querySelectorAll("input");
+const password = document.getElementById("senha");
+const imgSenha = document.getElementById("imgSenha");
+
+function showPassword() {
+  if (password.type === "password") {
+    password.type = "text";
+    imgSenha.src = "../../img/icons/openEye.svg";
+    return;
+  }
+
+  password.type = "password";
+  imgSenha.src = "../../img/icons/closeEye.svg";
+}
+
+imgSenha.addEventListener("click", () => {
+  showPassword();
+});
 
 function getCartProducts() {
   const numberProductsInCart = JSON.parse(localStorage.getItem("cart")) || [];
@@ -23,21 +39,25 @@ submit.addEventListener("click", function () {
     type: "GET",
     contentType: "application/json",
 
-    beforeSend: function () {
-      response.textContent = "Verificando";
-    },
+    beforeSend: function () {},
   })
     .done(function (data) {
-      console.log({ data });
+      submit.disabled = true;
+      submit.classList.add("disabled");
+      submit.classList.remove("btnLogin");
       setTimeout(() => {
         const findUser = data.find((user) => user.email === inputs[0].value);
-        console.log({ findUser });
 
-        if (!findUser || findUser.senha !== inputs[1].value)
-          return (response.textContent = "Email e/ou Senha inválido");
+        if (!findUser || findUser.senha !== inputs[1].value) {
+          submit.disabled = false;
+          submit.classList.remove("disabled");
+          submit.classList.add("btnLogin");
+          return alert("Email e/ou Senha inválido. Tente novamente");
+        }
+        alert(`Login realizado com sucesso. BEM VINDO ${findUser.nome}`);
+        localStorage.setItem("logado", true);
+        window.location.href = "cart.html";
       }, 2000);
-
-      response.textContent = "Login efetuado com sucesso";
     })
     .fail(function (_, textStatus, errorThrown) {
       console.error("Error:", textStatus, errorThrown);

@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="../../css/global.css" />
     <title>SYGLA - Tudo para o seu churrasco</title>
   </head>
-  <body class="bodyShop">
+  <body class="bodyCart">
     <header>
       <a href="#">
         <img src="../../img/logo.svg" alt="Logo Sygla" class="logoLoja" />
@@ -39,6 +39,8 @@
                   >Voltar para produtos</a
                 >
               </li>
+            </ul>
+            <ul class="navbar-nav">
               <li class="nav-item">
                 <a
                   class="nav-link active"
@@ -51,56 +53,24 @@
           </div>
         </div>
       </nav>
-      <div class="cartValue">
-        <img src="../../img/icons/cart.svg" alt="" />
-        <h2 class="m-0 fs-5" id="valueCart"></h2>
-      </div>
     </header>
-    <main class="login">
-      <h2>LOGIN</h2>
-      <form action="button" method="post">
-        <div class="d-flex w-100 gap-2">
-          <label class="d-flex align-items-center" for="email">E-mail</label>
-          <input
-            class="w-100"
-            placeholder="Digite seu email"
-            type="email"
-            name="email"
-            id="email"
-            autocomplete="off"
-            value=""
-            required
-          />
-        </div>
-        <div class="d-flex w-100 gap-2">
-          <label class="w-100 d-flex" for="senha">Senha*</label>
-          <div
-            class="d-flex align-items-center justify-content-center w-100 px-2 passwordDiv"
-          >
-            <input
-              class="w-100 border-0"
-              placeholder="Digite sua senha"
-              type="password"
-              name="senha"
-              id="senha"
-              required
-            />
-            <img
-              class=""
-              id="imgSenha"
-              src="../../img/icons/closeEye.svg"
-              alt="icon ver senha"
-            />
-          </div>
-        </div>
-        <button class="btnLogin" type="button">Entrar</button>
-        <h2 class="fs-6 m-0">
-          Não tem cadastro? <a href="./register.html"> Clique aqui</a>
-        </h2>
-      </form>
+    <main class="cart">
+      <h2>Seu Carrinho de compras</h2>
+      <section>
+        <table>
+          <thead>
+            <tr>
+              <th class="tableImg"></th>
+              <th class="tableName">Produto</th>
+              <th class="tableQtt">Quantidade</th>
+              <th class="tablePrice">Preço</th>
+            </tr>
+          </thead>
+          <tbody id="cart"></tbody>
+      </section>
     </main>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script type="module" src="../../js/login.js"></script>
+    <script type="module" src="../../js/cart.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
   </body>
 </html>
