@@ -135,7 +135,80 @@
         </div>
       </nav>
     </header>
-    <main class="alcoholics"></main>
+    <main class="alcoholics">
+      <div class="container_alcool">
+        <p class="texto_alcool">
+          Na SYGLA, cada bebida é uma história, uma viagem sensorial que começa no primeiro gole. Nossa coleção de <strong>bebidas alcoólicas</strong> é uma celebração da diversidade e da qualidade, escolhida a dedo para garantir que cada momento seja especial.
+      </p>
+      <p class="texto_alcool">
+          <strong>Vinhos</strong>: Nossa seleção de vinhos é um convite para explorar sabores e terroirs de todo o mundo. O <strong>Vinho Tinto Cabernet Sauvignon</strong> é robusto e encorpado, perfeito para acompanhar carnes vermelhas. O <strong>Vinho Branco Chardonnay</strong> brilha com sua acidez equilibrada e notas frutadas, enquanto o <strong>Vinho Rosé Provence</strong> encanta com sua leveza e frescor. Para os amantes de sabores intensos, o <strong>Vinho Porto Tawny</strong> e o <strong>Vinho do Porto Vintage</strong> são tesouros envelhecidos, ricos em complexidade. O <strong>Vinho Malbec Argentino</strong> traz a paixão e o fogo da Argentina, e o <strong>Vinho Chianti Clássico</strong> é a essência da tradição italiana. O <strong>Vinho Rioja Reserva</strong> é a expressão da elegância espanhola, e para celebrações, nada como um <strong>Espumante Brut</strong> ou um <strong>Champanhe Brut</strong> para brindar com sofisticação.
+      </p>
+      <p class="texto_alcool">
+          <strong>Cervejas</strong>: Para os apreciadores de cerveja, temos desde a <strong>Cerveja IPA Artesanal</strong>, com seu amargor característico e aromas cítricos, até a <strong>Cerveja Stout Irlandesa</strong>, rica e cremosa. A <strong>Cerveja Weissbier</strong> é uma homenagem à tradição alemã, com notas de banana e cravo.
+      </p>
+      <p class="texto_alcool">
+          <strong>Destilados e Licores</strong>: A <strong>Cachaça Artesanal</strong> é a alma do Brasil, perfeita para caipirinhas ou para ser apreciada pura. O <strong>Sake Premium Junmai</strong> é a pureza do Japão em cada gota. Para os aventureiros, o <strong>Absinto Tradicional</strong> e o <strong>Absinto Premium Gold</strong> oferecem uma experiência única. O <strong>Whisky Escocês Single Malt</strong> e o <strong>Whisky Bourbon</strong> são para os que valorizam a tradição e a complexidade. O <strong>Rum Caribenho</strong> e o <strong>Rum Premium</strong> trazem o calor tropical, enquanto o <strong>Gin Premium</strong> e o <strong>Gin London Dry</strong> são a base para coquetéis clássicos e inovadores.
+      </p>
+      <p class="texto_alcool">
+          <strong>Sabores Únicos</strong>: Nosso <strong>Licor de Café</strong> e <strong>Licor de Café Premium</strong> são perfeitos para finalizar uma refeição ou para criar coquetéis intrigantes. O <strong>Licor de Mel</strong>, <strong>Licor de Cereja</strong> e <strong>Licor de Amêndoa</strong> são doces e envolventes. Para quem busca algo diferente, temos o <strong>Gin de Alecrim</strong>, <strong>Gin de Pimenta Rosa</strong> e <strong>Gin de Frutas Vermelhas</strong>, cada um com um perfil aromático distinto.
+      </p>
+      <p class="texto_alcool">
+          <strong>Tequilas e Mezcais</strong>: Da suavidade do <strong>Tequila Blanco</strong> à complexidade do <strong>Tequila Añejo</strong> e <strong>Tequila Extra Añejo</strong>, nossa seleção é perfeita para margaritas ou para ser apreciada pura.
+      </p>
+      <p class="texto_alcool">
+          Cada bebida da SYGLA é uma promessa de qualidade e satisfação. Convidamos você a descobrir e se deliciar com nossa cuidadosa seleção, onde cada garrafa conta uma história e cada gole é uma celebração.
+      </p>
+      </div>
+      <div class="slideshow-container">
+        <div class="mySlides">
+            <img src="../img/alchool/destiladas/Vermute Extra Dry Martini.svg" alt="Imagem 1">
+        </div>
+        <div class="mySlides">
+            <img src="../img/alchool/destiladas/Vodka Äpple.svg" alt="Imagem 2">
+        </div>
+        <div class="mySlides">
+            <img src="../img/alchool/fermentadas/Sangria Espanhola.svg" alt="Imagem 3">
+        </div>
+        <div class="mySlides">
+            <img src="../img/alchool/fermentadas/IPA artesanal.svg" alt="Imagem 4">
+        </div>
+        <div class="mySlides">
+            <img src="../img/alchool/destiladas/Absinthe Premium Gold.svg" alt="Imagem 5">
+        </div>
+        <div class="mySlides">
+            <img src="../img/alchool/destiladas/Vintage Porto.svg" alt="Imagem 6">
+        </div>
+        <div class="dot-container">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </div>
+
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            for (let i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+            setTimeout(showSlides, 2000); 
+        }
+    </script>
+    </main>
     <footer>
       <a class="logo" href="../index.html">
         <img src="../img/logo-branco.svg" alt="Logo Sygla" class="logo" />

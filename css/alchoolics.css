@@ -6,4 +6,45 @@
   min-height: calc(100vh - 185px);
   max-height: calc(100vh - 185px);
   overflow-y: auto;
+  justify-content: center;
+  align-items: center;
+  
+}
+.container_alcool {
+  width: 60vh; 
+  height: 70vh;
+  overflow-y: auto;
+  padding: 20px;
+  box-sizing: border-box;
+  scrollbar-width: none;
+}
+.texto_alcool{
+  text-shadow: 1px 1px 2px pink;
+  text-align: justify;
+  font-weight: bold;
+}
+
+.slideshow-container {
+  position: absolute;
+    width: 800px; /* Largura fixa para o slideshow */
+    height: 400px; /* Altura fixa para o slideshow */
+    overflow: hidden;
+    margin-left: 20px; /* Espaçamento do lado esquerdo */
+    place-content: end;
+}
+.slides {
+    display: flex;
+    transition: transform 1s ease-in-out;
+    width: 100px;
+}
+.slide {
+    min-width: 100px;
+    box-sizing: border-box;
+}
+.mySlides img{
+  height: 400px;
+}
+.slide img {
+    object-fit: cover;
+    vertical-align: middle;
 }
