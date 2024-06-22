@@ -1,10 +1,10 @@
-.alcoholics {
+.meals {
   display: flex;
   align-items: center;
-  background-image: url("../img/bg/bg-alchool.svg");
+  background-image: url("../img/bg/bg-meat.svg");
   background-size: cover;
-  background-repeat: no-repeat;
   background-position: center;
+  background-repeat: no-repeat;
   min-width: 100vw;
   min-height: calc(100vh - 185px);
   max-height: calc(100vh - 185px);
@@ -13,7 +13,7 @@
   padding: 0 0.5rem;
 }
 
-.alcoholics > div {
+.meals > div {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -66,9 +66,11 @@
   box-sizing: border-box;
   transition: all 0.5s ease-in-out;
 }
+
 .mySlides img {
-  height: 400px;
+  width: 100%;
 }
+
 .slide img {
   object-fit: cover;
   vertical-align: middle;
