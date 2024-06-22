@@ -18,22 +18,6 @@ buyButton.addEventListener("click", () => {
   window.location.href = "./login.html";
 });
 
-getCartValue();
-
-function getCartValue() {
-  let sum = 0;
-  const cartItens = JSON.parse(localStorage.getItem("cart")) || [];
-  if (cartItens.length) {
-    cartItens.forEach((item) => {
-      sum += item.valor * item.quantidade;
-    });
-    total.textContent = sum.toLocaleString("pt-BR", {
-      style: "currency",
-      currency: "BRL",
-    });
-  }
-}
-
 closedButton.addEventListener("click", function () {
   modal.classList.add("hidden");
   const tbody = document.querySelector("tbody");
@@ -48,32 +32,33 @@ let render = localStorage.getItem("render") || false;
 function addEventListenersToButtons(item, tdQtt, cartItens) {
   const sumButton = tdQtt.querySelector(".sum");
   const minusButton = tdQtt.querySelector(".minus");
+  const quantityDisplay = tdQtt.childNodes[1]; // Assume que o elemento de quantidade é o segundo filho de tdQtt
 
-  sumButton.addEventListener("click", function () {
-    item.quantidade++;
-    const updatedCart = cartItens.map((cartItem) =>
-      cartItem.nome === item.nome ? item : cartItem
-    );
-    localStorage.setItem("cart", JSON.stringify(updatedCart));
-    tdQtt.innerHTML = `<h3 class="m-0 sum">+</h3> ${item.quantidade} <h3 class="m-0 minus">-</h3>`;
-    addEventListenersToButtons(item, tdQtt, cartItens);
-
-    getCartValue();
+  sumButton.addEventListener("click", () => {
+    item.quantidade += 1;
+    quantityDisplay.textContent = ` ${item.quantidade} `;
+    updateCartInLocalStorage(item);
   });
 
-  minusButton.addEventListener("click", function () {
+  minusButton.addEventListener("click", () => {
     if (item.quantidade > 1) {
-      item.quantidade--;
-      const updatedCart = cartItens.map((cartItem) =>
-        cartItem.nome === item.nome ? item : cartItem
-      );
-      localStorage.setItem("cart", JSON.stringify(updatedCart));
-      tdQtt.innerHTML = `<h3 class="m-0 sum">+</h3> ${item.quantidade} <h3 class="m-0 minus">-</h3>`;
-      addEventListenersToButtons(item, tdQtt, cartItens);
-
-      getCartValue();
+      item.quantidade -= 1;
+      quantityDisplay.textContent = ` ${item.quantidade} `;
+      updateCartInLocalStorage(item);
     }
   });
+}
+
+function updateCartInLocalStorage(updatedItem) {
+  let cart = JSON.parse(localStorage.getItem("cart")) || [];
+  const itemIndex = cart.findIndex(
+    (cartItem) => cartItem.nome === updatedItem.nome
+  );
+  if (itemIndex !== -1) {
+    cart[itemIndex] = updatedItem;
+    localStorage.setItem("cart", JSON.stringify(cart));
+    getCartProducts(); // Atualiza a exibição do carrinho, se necessário
+  }
 }
 
 function getCartProducts() {
@@ -159,9 +144,9 @@ function renderProducts(products) {
 
       tdQtt.innerHTML = `<h3 class="m-0 sum">+</h3> ${item.quantidade} <h3 class="m-0 minus">-</h3>`;
       tdQtt.classList.add("tableQtt");
-      tdPrice.textContent = (
-        Number(item.valor) * Number(item.quantidade)
-      ).toLocaleString("pt-BR", {
+      addEventListenersToButtons(item, tdQtt, cartItens); // Adiciona os event listeners
+
+      tdPrice.textContent = Number(item.valor).toLocaleString("pt-BR", {
         style: "currency",
         currency: "BRL",
       });
@@ -171,9 +156,7 @@ function renderProducts(products) {
       tdTrash.append(imgTrash);
       tdTrash.classList.add("tdRemove");
       tr.append(tdImg, tdName, tdQtt, tdPrice, tdTrash);
-      addEventListenersToButtons(item, tdQtt, cartItens);
 
-      tr.append(tdImg, tdName, tdQtt, tdPrice);
       document.querySelector("tbody").appendChild(tr);
       imgTrash.addEventListener("click", function () {
         const cartInfo = JSON.parse(localStorage.getItem("cart"));

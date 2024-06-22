@@ -83,6 +83,8 @@ $(document).ready(function () {
 enviar.addEventListener("click", () => {
   let inputsOk = true;
   inputs.forEach((input) => {
+    console.log({ input });
+
     if (!input.value && input.id !== "complemento") {
       input.classList.add("error");
       if (input.id === "senha" || input.id === "confirma_senha") {
@@ -103,11 +105,11 @@ enviar.addEventListener("click", () => {
     contentType: "application/json",
   })
     .done((data) => {
-      const database = data;
       const findUser = data.find((user) => user.email === inputs[1].value);
+
       if (findUser) return alert("Email já cadastro no sistema");
 
-      console.log(inputs);
+      if (inputs[2].value.length < 15) return alert("telefone esta incompleto");
 
       const user = {
         nome: inputs[0].value,
@@ -120,11 +122,11 @@ enviar.addEventListener("click", () => {
           complemento: inputs[6].value,
           bairro: inputs[7].value,
           cidade: inputs[8].value,
-          bairro: inputs[9].value,
+          estado: inputs[9].value,
         },
         senha: inputs[10].value,
       };
-      database.push(user);
+
       $.ajax({
         url: "../../php/register.php",
         type: "POST",

@@ -55,7 +55,7 @@
       </nav>
     </header>
     <main class="cart">
-      <h2 class="text-center">Seu Carrinho de compras</h2>
+      <h2 class="text-center m-0">Seu Carrinho de compras</h2>
       <section>
         <table>
           <thead>
@@ -71,40 +71,74 @@
         </table>
         <div class="d-flex flex-column align-items-center">
           <div>
-            <h2>Confira seus dados</h2>
+            <h2 class="m-0">Dados do Cartão</h2>
             <div
               class="d-flex flex-column align-items-center justify-content-center gap-2"
             >
-              <h2>Nome: <span id="nome"></span></h2>
-              <h2>Telefone: <span id="telefone"></span></h2>
-              <div>
-                <h2>Endereço</h2>
-                <p id="endereco"></p>
+              <div class="d-flex gap-2 w-100">
+                <label for="nomeCartao">Nome no cartão</label
+                ><input
+                  class="w-75"
+                  type="text"
+                  name="nomeCartao"
+                  id="nomeCartao"
+                />
+              </div>
+              <div class="d-flex gap-2">
+                <div class="d-flex gap-2 w-100">
+                  <label for="numerosCartao">Números do cartão</label
+                  ><input
+                    class="w-50"
+                    type="text"
+                    name="numerosCartao"
+                    id="numerosCartao"
+                  />
+                </div>
+                <div class="d-flex gap-2">
+                  <label for="ccs">CCV</label
+                  ><input class="w-25" type="text" name="ccv" id="ccv" />
+                </div>
+              </div>
+              <div
+                class="d-flex flex-column align-items-center justify-content-center"
+              >
+                <label for="Validade">Validade</label>
+                <div class="d-flex gap-2">
+                  <div
+                    class="validade d-flex flex-column align-items-center justify-content-center"
+                  >
+                    <label for="mesValidade">Mês</label>
+                    <input
+                      type="text"
+                      name="mesValidade"
+                      id="mesValidade"
+                      maxlength="2"
+                      pattern="^(0[1-9]|1[0-2])$"
+                      title="Mês deve ser entre 01 e 12"
+                      required
+                    />
+                  </div>
+                  <div
+                    class="validade d-flex flex-column align-items-center justify-content-center"
+                  >
+                    <label for="anoValidade">Ano</label>
+                    <input
+                      type="text"
+                      name="anoValidade"
+                      id="anoValidade"
+                      maxlength="2"
+                      pattern="^([0-9]{2})$"
+                      title="Ano deve ser 2 dígitos"
+                      required
+                    />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <h3 class="text-center">Total da compra: <span id="total"></span></h3>
-          <div class="d-flex align-items-center justify-content-center gap-2">
-            <label for="pagamento">Forma de pagamento:</label>
-            <div class="d-flex align-items-center justify-content-center gap-2">
-              <input
-                type="radio"
-                name="pagamento"
-                id="pagamentoCartao"
-                value="cartao"
-              /><label for="pagamentoCartao">CARTÃO</label>
-            </div>
-            <div class="d-flex align-items-center justify-content-center gap-2">
-              <input
-                type="radio"
-                name="pagamento"
-                id="pagamentoPix"
-                value="pix"
-              /><label for="pagamentoPix">PIX</label>
-            </div>
-          </div>
-          <button class="prosseguir" id="prosseguir" type="button">
-            Prosseguir
+          <h3 class="text-center">Valor: <span id="total"></span></h3>
+          <button class="finalizar" id="finalizar" type="button">
+            Finalizar
           </button>
         </div>
       </section>

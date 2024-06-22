@@ -56,6 +56,7 @@ submit.addEventListener("click", function () {
         }
         alert(`Login realizado com sucesso. BEM VINDO ${findUser.nome}`);
         localStorage.setItem("logado", true);
+        localStorage.setItem("user", JSON.stringify(findUser));
         window.location.href = "cart.html";
       }, 2000);
     })

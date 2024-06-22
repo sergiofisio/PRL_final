@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="../../css/global.css" />
     <title>SYGLA - Tudo para o seu churrasco</title>
   </head>
-  <body class="bodyShop">
+  <body class="bodyCart">
     <header>
       <a href="#">
         <img src="../../img/logo.svg" alt="Logo Sygla" class="logoLoja" />
@@ -30,6 +30,16 @@
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./shop.html"
+                  >Voltar para produtos</a
+                >
+              </li>
+            </ul>
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a
@@ -43,44 +53,37 @@
           </div>
         </div>
       </nav>
-      <div class="finishShop hidden">
-        <h2 class="fs-6">
-          Para finalizar sua compra, clique aqui
-          <img src="../../img/icons/arrow.svg" alt="" />
-        </h2>
-        <div class="cartValue">
-          <img src="../../img/icons/cart.svg" alt="" />
-          <h2 class="m-0 fs-5" id="valueCart"></h2>
-        </div>
-      </div>
     </header>
-    <main class="shop">
-      <aside class="bg-white">
-        <h1 class="text-center text-capitalize fs-2 red">Filtrar</h1>
-      </aside>
-      <section><h2 id="response"></h2></section>
-    </main>
-    <div class="modalShop hidden">
-      <div class="modalContent">
-        <h2 class="closedButton">X</h2>
-        <h2 class="red">Seu carrinho</h2>
+    <main class="cart">
+      <h2 class="text-center m-0">Seu Carrinho de compras</h2>
+      <section>
         <table>
           <thead>
             <tr>
-              <th class="tableTrash"></th>
               <th class="tableImg"></th>
               <th class="tableName">Produto</th>
               <th class="tableQtt">Quantidade</th>
               <th class="tablePrice">Preço unitário</th>
+              <th class="tablePrice">Preço Total</th>
             </tr>
           </thead>
           <tbody id="cart"></tbody>
         </table>
-        <h3 class="red">TOTAL: <strong class="total red"></strong></h3>
-        <button class="buy finalizar compra">Finalizar</button>
-      </div>
-    </div>
+        <div
+          class="d-flex flex-column align-items-center justify-content-center"
+        >
+          <h2
+            class="d-flex align-items-center justify-content-center text-center"
+          >
+            Agora você pode sossegar que seus produtos para o churras perfeito
+            vai chegar em instantes.
+          </h2>
+          <img class="h-75" src="../../img/final.svg" alt="Finalização" />
+        </div>
+      </section>
+    </main>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script type="module" src="../../js/script.js"></script>
+    <script type="module" src="../../js/cart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
   </body>
 </html>
