@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="../css/global.css" />
     <title>SYGLA - Tudo para o seu churrasco</title>
   </head>
-  <body class="alcoolicas">
+  <body>
     <header>
       <a href="../index.html">
         <img src="../img/logo.svg" alt="Logo Sygla" class="logo" />
@@ -32,7 +32,10 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../index.html"
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../index.html"
                   >Sobre nós</a
                 >
               </li>
@@ -51,14 +54,12 @@
                   <li>
                     <a
                       class="dropdown-item border-2 border-top-0 border-end-0 border-start-0 border-white"
-                      href="#"
+                      href="./alcoolicas.html"
                       >Alcoólicas</a
                     >
                   </li>
                   <li>
-                    <a class="dropdown-item" href="./naoalcoolcas.html"
-                      >Não alcoólicas</a
-                    >
+                    <a class="dropdown-item" href="#">Não alcoólicas</a>
                   </li>
                 </ul>
               </li>
@@ -110,22 +111,24 @@
                   </li>
                   <li>
                     <a
-                      class="dropdown-item"
+                      class="dropdown-item border-3 border-top-0 border-end-0 border-start-0 border-white"
                       href="../pages/dicas_drinks.html"
                       >Drinks</a
                     >
                   </li>
                   <li>
                     <a
-                      class="dropdown-item border-3 border-top-0 border-end-0 border-start-0 border-white"
-                      href="../pages/dicas_drinks.html"
+                      class="dropdown-item"
+                      href="../pages/dicas_coqueteis.html"
                       >Coqueteis e Sobremesa</a
                     >
                   </li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="../pages/shop/shop.html">Loja</a>
+                <a class="nav-link active" href="../pages/shop/shop.html"
+                  >Loja</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link active" href="#">Contato</a>
@@ -135,7 +138,73 @@
         </div>
       </nav>
     </header>
-    <main class="nonalcholics"></main>
+    <main class="alcoholics">
+      <div class="slideshow-container">
+        <div class="mySlides">
+          <img
+            src="../img/non-alchool/Suco Natural de Laranja.svg"
+            alt="Imagem 1"
+          />
+        </div>
+        <div class="mySlides">
+          <img src="../img/non-alchool/Refrigerante Cola.svg" alt="Imagem 2" />
+        </div>
+        <div class="mySlides">
+          <img
+            src="../img/non-alchool/Água de Coco Natural.svg"
+            alt="Imagem 3"
+          />
+        </div>
+        <div class="mySlides">
+          <img
+            src="../img/non-alchool/Iced Tea de Pêssego.svg"
+            alt="Imagem 4"
+          />
+        </div>
+        <div class="mySlides">
+          <img src="../img/non-alchool/Smoothie de Açaí.svg" alt="Imagem 5" />
+        </div>
+        <div class="mySlides">
+          <img src="../img/non-alchool/Chá Verde Orgânico.svg" alt="Imagem 6" />
+        </div>
+      </div>
+      <div class="container_alcool">
+        <p class="texto_alcool">
+          Na SYGLA, nossa seleção de bebidas não alcoólicas é uma celebração da
+          diversidade e do sabor. Desde os clássicos refrescantes até as
+          inovações contemporâneas, cada opção é cuidadosamente escolhida para
+          garantir uma experiência de paladar excepcional. Começando com os
+          tradicionais, como o <strong>Suco Natural de Laranja</strong> e a
+          <strong>Refrigerante Cola</strong>, oferecemos uma variedade que
+          agrada a todos os gostos. Para aqueles que buscam uma opção mais
+          saudável, nosso <strong>Chá Verde Orgânico</strong> e o
+          <strong>Smoothie Detox de Couve</strong> prometem revitalização e
+          frescor, enquanto o <strong>Água de Coco Natural*</strong> e o
+          <strong>Suco de Melancia</strong> são escolhas perfeitas para saciar a
+          sede com um toque tropical.
+        </p>
+        <p class="texto_alcool">
+          Além disso, nossa coleção apresenta algumas surpresas deliciosas, como
+          o <strong>Iced Tea de Pêssego</strong> e o
+          <strong>Iced Coffee</strong>, perfeitos para quem busca uma bebida
+          refrescante com um toque de sofisticação. Para aqueles que preferem
+          algo mais exótico, o <strong>Mate Gelado</strong> e a
+          <strong>Água de Rosas</strong> oferecem uma experiência única e
+          aromática. E se você está procurando uma explosão de energia natural,
+          nosso <strong>Energético Natural</strong> e o
+          <strong>Smoothie de Açaí</strong> são escolhas ideais para um impulso
+          revigorante.
+        </p>
+        <p class="texto_alcool">
+          Na SYGLA, estamos comprometidos em oferecer uma experiência completa,
+          onde cada gole conta uma história de qualidade e sabor. Explore nossa
+          seleção diversificada de bebidas não alcoólicas e descubra novos
+          sabores que vão encantar seu paladar e elevar suas celebrações para
+          outro nível. Venha brindar conosco e descubra um mundo de sabores
+          refrescantes e emocionantes.
+        </p>
+      </div>
+    </main>
     <footer>
       <a class="logo" href="../index.html">
         <img src="../img/logo-branco.svg" alt="Logo Sygla" class="logo" />
@@ -145,5 +214,6 @@
         http://www.sygla.com.br
       </h2>
     </footer>
+    <script src="../js/bebidas.js"></script>
   </body>
 </html>
