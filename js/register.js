@@ -83,8 +83,6 @@ $(document).ready(function () {
 enviar.addEventListener("click", () => {
   let inputsOk = true;
   inputs.forEach((input) => {
-    console.log({ input });
-
     if (!input.value && input.id !== "complemento") {
       input.classList.add("error");
       if (input.id === "senha" || input.id === "confirma_senha") {
@@ -125,6 +123,7 @@ enviar.addEventListener("click", () => {
           estado: inputs[9].value,
         },
         senha: inputs[10].value,
+        admin: false,
       };
 
       $.ajax({

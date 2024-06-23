@@ -83,6 +83,7 @@ radios.forEach((radio) => {
 button.addEventListener("click", () => {
   if (button.id === "prosseguir") {
     if (!formaPagamento) return alert("Escolha uma forma de pagamento");
+    localStorage.setItem("formaPg", formaPagamento);
     if (formaPagamento === "cartao")
       return (window.location.href = "cartao.html");
     if (formaPagamento === "pix") return (window.location.href = "pix.html");
@@ -104,7 +105,23 @@ button.addEventListener("click", () => {
       alert("Ano de validade não pode ser no passado.");
     }
   }
-  window.location.href = "./finalizacao.html";
+  const compra = {
+    user,
+    formaPagamento: localStorage.getItem("formaPg"),
+    cart: cartItens,
+  };
+  $.ajax({
+    url: "../../php/compras.php",
+    type: "POST",
+    data: JSON.stringify(compra),
+  })
+    .done(() => {
+      console.log({ compra });
+      window.location.href = "./finalizacao.html";
+    })
+    .fail(function (_, textStatus, errorThrown) {
+      console.error("Error:", textStatus, errorThrown);
+    });
 });
 
 mesValidade.addEventListener("input", (e) => {

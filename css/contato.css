@@ -1,19 +1,12 @@
-.contato {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 90vh;
-}
 .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-color: white;
-  width: 1100px;
-  padding: 50px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
+  width: 80%;
+  height: calc(100vh - 135px);
+  padding: 1rem;
 }
 .titulo {
   text-align: center;
@@ -28,6 +21,12 @@
 .formulario {
   width: 60%;
 }
+
+.assunto {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
 .formulario input[type="text"],
 .formulario input[type="email"],
 .formulario textarea {
@@ -37,6 +36,7 @@
   border: 1px solid #ccc;
   border-radius: 4px;
   background-color: #fdd1d7;
+  color: black;
 }
 .formulario input[type="radio"] {
   margin-right: 10px;

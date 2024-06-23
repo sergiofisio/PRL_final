@@ -92,7 +92,7 @@
   border-radius: 2rem;
   font-weight: 800;
 
-  background-color: #fff;
+  background-color: #fff !important;
   color: #800;
 
   border: 2px solid #fff;

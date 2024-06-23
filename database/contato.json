@@ -1,0 +1,100 @@
+[
+  {
+    "duvida": [
+      {
+        "nome": "Lucas Ferreira",
+        "email": "lucas.ferreira@exemplo.com",
+        "mensagem": "Quanto tempo para envio dos produtos?"
+      },
+      {
+        "nome": "Mariana Costa",
+        "email": "mariana.costa@exemplo.com",
+        "mensagem": "Quais são as formas de pagamento?"
+      },
+      {
+        "nome": "Rafael Souza",
+        "email": "rafael.souza@exemplo.com",
+        "mensagem": "Vocês oferecem suporte para eventos?"
+      },
+      {
+        "nome": "Rafael Souza",
+        "email": "rafael.souza@exemplo.com",
+        "mensagem": "Vocês oferecem suporte para eventos?"
+      },
+      {
+        "nome": "Rafael Souza",
+        "email": "rafael.souza@exemplo.com",
+        "mensagem": "Vocês oferecem suporte para eventos?"
+      },
+      {
+        "nome": "Rafael Souza",
+        "email": "rafael.souza@exemplo.com",
+        "mensagem": "Vocês oferecem suporte para eventos?"
+      }
+    ],
+    "sugestao": [
+      {
+        "nome": "Tatiane Lima",
+        "email": "tatiane.lima@exemplo.com",
+        "mensagem": "Adicionem acessórios para vender na loja."
+      },
+      {
+        "nome": "Gustavo Henrique",
+        "email": "gustavo.henrique@exemplo.com",
+        "mensagem": "Incluir uma seção de perguntas frequentes ajudaria muito os novos usuários."
+      },
+      {
+        "nome": "Fernanda Oliveira",
+        "email": "fernanda.oliveira@exemplo.com",
+        "mensagem": "Considerem adicionar um chat ao vivo para suporte rápido."
+      },
+      {
+        "nome": "Fernanda Oliveira",
+        "email": "fernanda.oliveira@exemplo.com",
+        "mensagem": "Considerem adicionar um chat ao vivo para suporte rápido."
+      },
+      {
+        "nome": "Fernanda Oliveira",
+        "email": "fernanda.oliveira@exemplo.com",
+        "mensagem": "Considerem adicionar um chat ao vivo para suporte rápido."
+      },
+      {
+        "nome": "Fernanda Oliveira",
+        "email": "fernanda.oliveira@exemplo.com",
+        "mensagem": "Considerem adicionar um chat ao vivo para suporte rápido."
+      }
+    ],
+    "elogio": [
+      {
+        "nome": "Carlos Eduardo",
+        "email": "carlos.eduardo@exemplo.com",
+        "mensagem": "O processo de compra é muito simples e rápido. Parabéns!"
+      },
+      {
+        "nome": "Julia Martins",
+        "email": "julia.martins@exemplo.com",
+        "mensagem": "Adorei a qualidade do serviço, superou minhas expectativas!"
+      },
+      {
+        "nome": "Pedro Alcântara",
+        "email": "pedro.alcantara@exemplo.com",
+        "mensagem": "O atendimento ao cliente é excepcional, muito atenciosos e prestativos."
+      },
+      {
+        "nome": "Pedro Alcântara",
+        "email": "pedro.alcantara@exemplo.com",
+        "mensagem": "O atendimento ao cliente é excepcional, muito atenciosos e prestativos."
+      },
+      {
+        "nome": "Pedro Alcântara",
+        "email": "pedro.alcantara@exemplo.com",
+        "mensagem": "O atendimento ao cliente é excepcional, muito atenciosos e prestativos."
+      },
+      {
+        "nome": "Pedro Alcântara",
+        "email": "pedro.alcantara@exemplo.com",
+        "mensagem": "O atendimento ao cliente é excepcional, muito atenciosos e prestativos."
+      }
+    ]
+  }
+]

@@ -1,1 +1,852 @@
-[]
+[
+  {
+    "user": {
+      "nome": "teste",
+      "email": "teste@teste.com.br",
+      "phone": "(11) 96593-2620",
+      "endereco": {
+        "cep": "09710212",
+        "rua": "Rua Municipal",
+        "numero": "507",
+        "complemento": "",
+        "bairro": "Centro",
+        "cidade": "S\u00e3o Bernardo do Campo",
+        "estado": "SP"
+      },
+      "senha": "123456",
+      "admin": false
+    },
+    "formaPagamento": "cart\u00e3o",
+    "cart": [
+      {
+        "nome": "Vinho Tinto Cabernet Sauvignon",
+        "descri\u00e7\u00e3o": "Vinho encorpado com notas de frutas vermelhas e especiarias.",
+        "categoria": 2,
+        "img": "../../img/alchool/fermentadas/Cabernet Sauvignon_.svg",
+        "valor": 45,
+        "quantidade": 2
+      },
+      {
+        "nome": "Cerveja IPA Artesanal",
+        "descri\u00e7\u00e3o": "Cerveja lupulada com aroma c\u00edtrico e amargor equilibrado.",
+        "categoria": 1,
+        "img": "../../img/alchool/fermentadas/IPA artesanal.svg",
+        "valor": 7.5,
+        "quantidade": 4
+      },
+      {
+        "nome": "Sak\u00ea Premium Junmai",
+        "descri\u00e7\u00e3o": "Sake japon\u00eas puro com aroma floral e sabor suave.",
+        "categoria": 9,
+        "img": "../../img/alchool/fermentadas/Sake Premium Junmai.svg",
+        "valor": 25,
+        "quantidade": 1
+      },
+      {
+        "nome": "Vinho Ros\u00e9 Provence",
+        "descri\u00e7\u00e3o": "Vinho ros\u00e9 leve e refrescante, com aromas de frutas vermelhas.",
+        "categoria": 2,
+        "img": "../../img/alchool/fermentadas/Rose Provence.svg",
+        "valor": 18,
+        "quantidade": 1
+      },
+      {
+        "nome": "Cacha\u00e7a Artesanal",
+        "descri\u00e7\u00e3o": "Cacha\u00e7a pura envelhecida em barris de carvalho.",
+        "categoria": 7,
+        "img": "../../img/alchool/fermentadas/Aguardiente Antioque\u00f1o.svg",
+        "valor": 12,
+        "quantidade": 1
+      },
+      {
+        "nome": "Cerveja Weissbier",
+        "descri\u00e7\u00e3o": "Cerveja de trigo alem\u00e3, leve e refrescante, com notas de banana e cravo.",
+        "categoria": 1,
+        "img": "../../img/alchool/fermentadas/Weissbier.svg",
+        "valor": 6,
+        "quantidade": 1
+      },
+      {
+        "nome": "Cidra de P\u00eara",
+        "descri\u00e7\u00e3o": "Cidra suave e frutada com sabor de p\u00earas frescas.",
+        "categoria": 4,
+        "img": "../../img/alchool/fermentadas/Cidra de Pera.svg",
+        "valor": 10,
+        "quantidade": 1
+      },
+      {
+        "nome": "Sangria Espanhola",
+        "descri\u00e7\u00e3o": "Bebida refrescante \u00e0 base de vinho tinto, frutas c\u00edtricas e especiarias.",
+        "categoria": 10,
+        "img": "../../img/alchool/fermentadas/Sangria Espanhola.svg",
+        "valor": 12,
+        "quantidade": 1
+      }
+    ]
+  },
+  {
+    "user": {
+      "nome": "teste",
+      "email": "teste@teste.com.br",
+      "phone": "(11) 96593-2620",
+      "endereco": {
+        "cep": "09710212",
+        "rua": "Rua Municipal",
+        "numero": "507",
+        "complemento": "",
+        "bairro": "Centro",
+        "cidade": "S\u00e3o Bernardo do Campo",
+        "estado": "SP"
+      },
+      "senha": "123456",
+      "admin": false
+    },
+    "formaPagamento": "cartao",
+    "cart": [
+      {
+        "nome": "Vinho Tinto Cabernet Sauvignon",
+        "descri\u00e7\u00e3o": "Vinho encorpado com notas de frutas vermelhas e especiarias.",
+        "categoria": 2,
+        "img": "../../img/alchool/fermentadas/Cabernet Sauvignon_.svg",
+        "valor": 45,
+        "quantidade": 1
+      },
+      {
+        "nome": "Cerveja IPA Artesanal",
+        "descri\u00e7\u00e3o": "Cerveja lupulada com aroma c\u00edtrico e amargor equilibrado.",
+        "categoria": 1,
+        "img": "../../img/alchool/fermentadas/IPA artesanal.svg",
+        "valor": 7.5,
+        "quantidade": 1
+      },
+      {
+        "nome": "Sak\u00ea Premium Junmai",
+        "descri\u00e7\u00e3o": "Sake japon\u00eas puro com aroma floral e sabor suave.",
+        "categoria": 9,
+        "img": "../../img/alchool/fermentadas/Sake Premium Junmai.svg",
+        "valor": 25,
+        "quantidade": 1
+      },
+      {
+        "nome": "Vinho Ros\u00e9 Provence",
+        "descri\u00e7\u00e3o": "Vinho ros\u00e9 leve e refrescante, com aromas de frutas vermelhas.",
+        "categoria": 2,
+        "img": "../../img/alchool/fermentadas/Rose Provence.svg",
+        "valor": 18,
+        "quantidade": 1
+      },
+      {
+        "nome": "Cacha\u00e7a Artesanal",
+        "descri\u00e7\u00e3o": "Cacha\u00e7a pura envelhecida em barris de carvalho.",
+        "categoria": 7,
+        "img": "../../img/alchool/fermentadas/Aguardiente Antioque\u00f1o.svg",
+        "valor": 12,
+        "quantidade": 1
+      },
+      {
+        "nome": "Cerveja Weissbier",
+        "descri\u00e7\u00e3o": "Cerveja de trigo alem\u00e3, leve e refrescante, com notas de banana e cravo.",
+        "categoria": 1,
+        "img": "../../img/alchool/fermentadas/Weissbier.svg",
+        "valor": 6,
+        "quantidade": 1
+      },
+      {
+        "nome": "Cidra de P\u00eara",
+        "descri\u00e7\u00e3o": "Cidra suave e frutada com sabor de p\u00earas frescas.",
+        "categoria": 4,
+        "img": "../../img/alchool/fermentadas/Cidra de Pera.svg",
+        "valor": 10,
+        "quantidade": 1
+      },
+      {
+        "nome": "Sangria Espanhola",
+        "descri\u00e7\u00e3o": "Bebida refrescante \u00e0 base de vinho tinto, frutas c\u00edtricas e especiarias.",
+        "categoria": 10,
+        "img": "../../img/alchool/fermentadas/Sangria Espanhola.svg",
+        "valor": 12,
+        "quantidade": 1
+      }
+    ]
+  },
+  {
+    "user": {
+      "nome": "teste",
+      "email": "teste@teste.com.br",
+      "phone": "(11) 96593-2620",
+      "endereco": {
+        "cep": "09710212",
+        "rua": "Rua Municipal",
+        "numero": "507",
+        "complemento": "",
+        "bairro": "Centro",
+        "cidade": "S\u00e3o Bernardo do Campo",
+        "estado": "SP"
+      },
+      "senha": "123456",
+      "admin": false
+    },
+    "formaPagamento": "cartao",
+    "cart": [
+      {
+        "nome": "Vinho Tinto Cabernet Sauvignon",
+        "descri\u00e7\u00e3o": "Vinho encorpado com notas de frutas vermelhas e especiarias.",
+        "categoria": 2,
+        "img": "../../img/alchool/fermentadas/Cabernet Sauvignon_.svg",
+        "valor": 45,
+        "quantidade": 1
+      },
+      {
+        "nome": "Cerveja IPA Artesanal",
+        "descri\u00e7\u00e3o": "Cerveja lupulada com aroma c\u00edtrico e amargor equilibrado.",
+        "categoria": 1,
+        "img": "../../img/alchool/fermentadas/IPA artesanal.svg",
+        "valor": 7.5,
+        "quantidade": 1
+      },
+      {
+        "nome": "Sak\u00ea Premium Junmai",
+        "descri\u00e7\u00e3o": "Sake japon\u00eas puro com aroma floral e sabor suave.",
+        "categoria": 9,
+        "img": "../../img/alchool/fermentadas/Sake Premium Junmai.svg",
+        "valor": 25,
+        "quantidade": 1
+      },
+      {
+        "nome": "Vinho Ros\u00e9 Provence",
+        "descri\u00e7\u00e3o": "Vinho ros\u00e9 leve e refrescante, com aromas de frutas vermelhas.",
+        "categoria": 2,
+        "img": "../../img/alchool/fermentadas/Rose Provence.svg",
+        "valor": 18,
+        "quantidade": 1
+      },
+      {
+        "nome": "Cacha\u00e7a Artesanal",
+        "descri\u00e7\u00e3o": "Cacha\u00e7a pura envelhecida em barris de carvalho.",
+        "categoria": 7,
+        "img": "../../img/alchool/fermentadas/Aguardiente Antioque\u00f1o.svg",
+        "valor": 12,
+        "quantidade": 1
+      },
+      {
+        "nome": "Cerveja Weissbier",
+        "descri\u00e7\u00e3o": "Cerveja de trigo alem\u00e3, leve e refrescante, com notas de banana e cravo.",
+        "categoria": 1,
+        "img": "../../img/alchool/fermentadas/Weissbier.svg",
+        "valor": 6,
+        "quantidade": 1
+      },
+      {
+        "nome": "Cidra de P\u00eara",
+        "descri\u00e7\u00e3o": "Cidra suave e frutada com sabor de p\u00earas frescas.",
+        "categoria": 4,
+        "img": "../../img/alchool/fermentadas/Cidra de Pera.svg",
+        "valor": 10,
+        "quantidade": 1
+      },
+      {
+        "nome": "Sangria Espanhola",
+        "descri\u00e7\u00e3o": "Bebida refrescante \u00e0 base de vinho tinto, frutas c\u00edtricas e especiarias.",
+        "categoria": 10,
+        "img": "../../img/alchool/fermentadas/Sangria Espanhola.svg",
+        "valor": 12,
+        "quantidade": 1
+      }
+    ]
+  },
+  {
+    "user": {
+      "nome": "teste",
+      "email": "teste@teste.com.br",
+      "phone": "(11) 96593-2620",
+      "endereco": {
+        "cep": "09710212",
+        "rua": "Rua Municipal",
+        "numero": "507",
+        "complemento": "",
+        "bairro": "Centro",
+        "cidade": "S\u00e3o Bernardo do Campo",
+        "estado": "SP"
+      },
+      "senha": "123456",
+      "admin": false
+    },
+    "formaPagamento": "cartao",
+    "cart": [
+      {
+        "nome": "Vinho Tinto Cabernet Sauvignon",
+        "descri\u00e7\u00e3o": "Vinho encorpado com notas de frutas vermelhas e especiarias.",
+        "categoria": 2,
+        "img": "../../img/alchool/fermentadas/Cabernet Sauvignon_.svg",
+        "valor": 45,
+        "quantidade": 1
+      },
+      {
+        "nome": "Cerveja IPA Artesanal",
+        "descri\u00e7\u00e3o": "Cerveja lupulada com aroma c\u00edtrico e amargor equilibrado.",
+        "categoria": 1,
+        "img": "../../img/alchool/fermentadas/IPA artesanal.svg",
+        "valor": 7.5,
+        "quantidade": 1
+      },
+      {
+        "nome": "Sak\u00ea Premium Junmai",
+        "descri\u00e7\u00e3o": "Sake japon\u00eas puro com aroma floral e sabor suave.",
+        "categoria": 9,
+        "img": "../../img/alchool/fermentadas/Sake Premium Junmai.svg",
+        "valor": 25,
+        "quantidade": 1
+      },
+      {
+        "nome": "Vinho Ros\u00e9 Provence",
+        "descri\u00e7\u00e3o": "Vinho ros\u00e9 leve e refrescante, com aromas de frutas vermelhas.",
+        "categoria": 2,
+        "img": "../../img/alchool/fermentadas/Rose Provence.svg",
+        "valor": 18,
+        "quantidade": 1
+      },
+      {
+        "nome": "Cacha\u00e7a Artesanal",
+        "descri\u00e7\u00e3o": "Cacha\u00e7a pura envelhecida em barris de carvalho.",
+        "categoria": 7,
+        "img": "../../img/alchool/fermentadas/Aguardiente Antioque\u00f1o.svg",
+        "valor": 12,
+        "quantidade": 1
+      },
+      {
+        "nome": "Cerveja Weissbier",
+        "descri\u00e7\u00e3o": "Cerveja de trigo alem\u00e3, leve e refrescante, com notas de banana e cravo.",
+        "categoria": 1,
+        "img": "../../img/alchool/fermentadas/Weissbier.svg",
+        "valor": 6,
+        "quantidade": 1
+      },
+      {
+        "nome": "Cidra de P\u00eara",
+        "descri\u00e7\u00e3o": "Cidra suave e frutada com sabor de p\u00earas frescas.",
+        "categoria": 4,
+        "img": "../../img/alchool/fermentadas/Cidra de Pera.svg",
+        "valor": 10,
+        "quantidade": 1
+      },
+      {
+        "nome": "Sangria Espanhola",
+        "descri\u00e7\u00e3o": "Bebida refrescante \u00e0 base de vinho tinto, frutas c\u00edtricas e especiarias.",
+        "categoria": 10,
+        "img": "../../img/alchool/fermentadas/Sangria Espanhola.svg",
+        "valor": 12,
+        "quantidade": 1
+      }
+    ]
+  },
+  {
+    "user": {
+      "nome": "teste",
+      "email": "teste@teste.com.br",
+      "phone": "(11) 96593-2620",
+      "endereco": {
+        "cep": "09710212",
+        "rua": "Rua Municipal",
+        "numero": "507",
+        "complemento": "",
+        "bairro": "Centro",
+        "cidade": "S\u00e3o Bernardo do Campo",
+        "estado": "SP"
+      },
+      "senha": "123456",
+      "admin": false
+    },
+    "formaPagamento": "cartao",
+    "cart": [
+      {
+        "nome": "Vinho Tinto Cabernet Sauvignon",
+        "descri\u00e7\u00e3o": "Vinho encorpado com notas de frutas vermelhas e especiarias.",
+        "categoria": 2,
+        "img": "../../img/alchool/fermentadas/Cabernet Sauvignon_.svg",
+        "valor": 45,
+        "quantidade": 1
+      },
+      {
+        "nome": "Cerveja IPA Artesanal",
+        "descri\u00e7\u00e3o": "Cerveja lupulada com aroma c\u00edtrico e amargor equilibrado.",
+        "categoria": 1,
+        "img": "../../img/alchool/fermentadas/IPA artesanal.svg",
+        "valor": 7.5,
+        "quantidade": 1
+      },
+      {
+        "nome": "Sak\u00ea Premium Junmai",
+        "descri\u00e7\u00e3o": "Sake japon\u00eas puro com aroma floral e sabor suave.",
+        "categoria": 9,
+        "img": "../../img/alchool/fermentadas/Sake Premium Junmai.svg",
+        "valor": 25,
+        "quantidade": 1
+      },
+      {
+        "nome": "Vinho Ros\u00e9 Provence",
+        "descri\u00e7\u00e3o": "Vinho ros\u00e9 leve e refrescante, com aromas de frutas vermelhas.",
+        "categoria": 2,
+        "img": "../../img/alchool/fermentadas/Rose Provence.svg",
+        "valor": 18,
+        "quantidade": 1
+      },
+      {
+        "nome": "Cacha\u00e7a Artesanal",
+        "descri\u00e7\u00e3o": "Cacha\u00e7a pura envelhecida em barris de carvalho.",
+        "categoria": 7,
+        "img": "../../img/alchool/fermentadas/Aguardiente Antioque\u00f1o.svg",
+        "valor": 12,
+        "quantidade": 1
+      },
+      {
+        "nome": "Cerveja Weissbier",
+        "descri\u00e7\u00e3o": "Cerveja de trigo alem\u00e3, leve e refrescante, com notas de banana e cravo.",
+        "categoria": 1,
+        "img": "../../img/alchool/fermentadas/Weissbier.svg",
+        "valor": 6,
+        "quantidade": 1
+      },
+      {
+        "nome": "Cidra de P\u00eara",
+        "descri\u00e7\u00e3o": "Cidra suave e frutada com sabor de p\u00earas frescas.",
+        "categoria": 4,
+        "img": "../../img/alchool/fermentadas/Cidra de Pera.svg",
+        "valor": 10,
+        "quantidade": 1
+      },
+      {
+        "nome": "Sangria Espanhola",
+        "descri\u00e7\u00e3o": "Bebida refrescante \u00e0 base de vinho tinto, frutas c\u00edtricas e especiarias.",
+        "categoria": 10,
+        "img": "../../img/alchool/fermentadas/Sangria Espanhola.svg",
+        "valor": 12,
+        "quantidade": 1
+      }
+    ]
+  },
+  {
+    "user": {
+      "nome": "teste",
+      "email": "teste@teste.com.br",
+      "phone": "(11) 96593-2620",
+      "endereco": {
+        "cep": "09710212",
+        "rua": "Rua Municipal",
+        "numero": "507",
+        "complemento": "",
+        "bairro": "Centro",
+        "cidade": "S\u00e3o Bernardo do Campo",
+        "estado": "SP"
+      },
+      "senha": "123456",
+      "admin": false
+    },
+    "formaPagamento": "cartao",
+    "cart": [
+      {
+        "nome": "Vinho Tinto Cabernet Sauvignon",
+        "descri\u00e7\u00e3o": "Vinho encorpado com notas de frutas vermelhas e especiarias.",
+        "categoria": 2,
+        "img": "../../img/alchool/fermentadas/Cabernet Sauvignon_.svg",
+        "valor": 45,
+        "quantidade": 1
+      },
+      {
+        "nome": "Cerveja IPA Artesanal",
+        "descri\u00e7\u00e3o": "Cerveja lupulada com aroma c\u00edtrico e amargor equilibrado.",
+        "categoria": 1,
+        "img": "../../img/alchool/fermentadas/IPA artesanal.svg",
+        "valor": 7.5,
+        "quantidade": 1
+      },
+      {
+        "nome": "Sak\u00ea Premium Junmai",
+        "descri\u00e7\u00e3o": "Sake japon\u00eas puro com aroma floral e sabor suave.",
+        "categoria": 9,
+        "img": "../../img/alchool/fermentadas/Sake Premium Junmai.svg",
+        "valor": 25,
+        "quantidade": 1
+      },
+      {
+        "nome": "Vinho Ros\u00e9 Provence",
+        "descri\u00e7\u00e3o": "Vinho ros\u00e9 leve e refrescante, com aromas de frutas vermelhas.",
+        "categoria": 2,
+        "img": "../../img/alchool/fermentadas/Rose Provence.svg",
+        "valor": 18,
+        "quantidade": 1
+      },
+      {
+        "nome": "Cacha\u00e7a Artesanal",
+        "descri\u00e7\u00e3o": "Cacha\u00e7a pura envelhecida em barris de carvalho.",
+        "categoria": 7,
+        "img": "../../img/alchool/fermentadas/Aguardiente Antioque\u00f1o.svg",
+        "valor": 12,
+        "quantidade": 1
+      },
+      {
+        "nome": "Cerveja Weissbier",
+        "descri\u00e7\u00e3o": "Cerveja de trigo alem\u00e3, leve e refrescante, com notas de banana e cravo.",
+        "categoria": 1,
+        "img": "../../img/alchool/fermentadas/Weissbier.svg",
+        "valor": 6,
+        "quantidade": 1
+      },
+      {
+        "nome": "Cidra de P\u00eara",
+        "descri\u00e7\u00e3o": "Cidra suave e frutada com sabor de p\u00earas frescas.",
+        "categoria": 4,
+        "img": "../../img/alchool/fermentadas/Cidra de Pera.svg",
+        "valor": 10,
+        "quantidade": 1
+      },
+      {
+        "nome": "Sangria Espanhola",
+        "descri\u00e7\u00e3o": "Bebida refrescante \u00e0 base de vinho tinto, frutas c\u00edtricas e especiarias.",
+        "categoria": 10,
+        "img": "../../img/alchool/fermentadas/Sangria Espanhola.svg",
+        "valor": 12,
+        "quantidade": 1
+      }
+    ]
+  },
+  {
+    "user": {
+      "nome": "teste",
+      "email": "teste@teste.com.br",
+      "phone": "(11) 96593-2620",
+      "endereco": {
+        "cep": "09710212",
+        "rua": "Rua Municipal",
+        "numero": "507",
+        "complemento": "",
+        "bairro": "Centro",
+        "cidade": "S\u00e3o Bernardo do Campo",
+        "estado": "SP"
+      },
+      "senha": "123456",
+      "admin": false
+    },
+    "formaPagamento": "cartao",
+    "cart": [
+      {
+        "nome": "Vinho Tinto Cabernet Sauvignon",
+        "descri\u00e7\u00e3o": "Vinho encorpado com notas de frutas vermelhas e especiarias.",
+        "categoria": 2,
+        "img": "../../img/alchool/fermentadas/Cabernet Sauvignon_.svg",
+        "valor": 45,
+        "quantidade": 1
+      },
+      {
+        "nome": "Cerveja IPA Artesanal",
+        "descri\u00e7\u00e3o": "Cerveja lupulada com aroma c\u00edtrico e amargor equilibrado.",
+        "categoria": 1,
+        "img": "../../img/alchool/fermentadas/IPA artesanal.svg",
+        "valor": 7.5,
+        "quantidade": 1
+      },
+      {
+        "nome": "Sak\u00ea Premium Junmai",
+        "descri\u00e7\u00e3o": "Sake japon\u00eas puro com aroma floral e sabor suave.",
+        "categoria": 9,
+        "img": "../../img/alchool/fermentadas/Sake Premium Junmai.svg",
+        "valor": 25,
+        "quantidade": 1
+      },
+      {
+        "nome": "Vinho Ros\u00e9 Provence",
+        "descri\u00e7\u00e3o": "Vinho ros\u00e9 leve e refrescante, com aromas de frutas vermelhas.",
+        "categoria": 2,
+        "img": "../../img/alchool/fermentadas/Rose Provence.svg",
+        "valor": 18,
+        "quantidade": 1
+      },
+      {
+        "nome": "Cacha\u00e7a Artesanal",
+        "descri\u00e7\u00e3o": "Cacha\u00e7a pura envelhecida em barris de carvalho.",
+        "categoria": 7,
+        "img": "../../img/alchool/fermentadas/Aguardiente Antioque\u00f1o.svg",
+        "valor": 12,
+        "quantidade": 1
+      },
+      {
+        "nome": "Cerveja Weissbier",
+        "descri\u00e7\u00e3o": "Cerveja de trigo alem\u00e3, leve e refrescante, com notas de banana e cravo.",
+        "categoria": 1,
+        "img": "../../img/alchool/fermentadas/Weissbier.svg",
+        "valor": 6,
+        "quantidade": 1
+      },
+      {
+        "nome": "Cidra de P\u00eara",
+        "descri\u00e7\u00e3o": "Cidra suave e frutada com sabor de p\u00earas frescas.",
+        "categoria": 4,
+        "img": "../../img/alchool/fermentadas/Cidra de Pera.svg",
+        "valor": 10,
+        "quantidade": 1
+      },
+      {
+        "nome": "Sangria Espanhola",
+        "descri\u00e7\u00e3o": "Bebida refrescante \u00e0 base de vinho tinto, frutas c\u00edtricas e especiarias.",
+        "categoria": 10,
+        "img": "../../img/alchool/fermentadas/Sangria Espanhola.svg",
+        "valor": 12,
+        "quantidade": 1
+      }
+    ]
+  },
+  {
+    "user": {
+      "nome": "teste",
+      "email": "teste@teste.com.br",
+      "phone": "(11) 96593-2620",
+      "endereco": {
+        "cep": "09710212",
+        "rua": "Rua Municipal",
+        "numero": "507",
+        "complemento": "",
+        "bairro": "Centro",
+        "cidade": "S\u00e3o Bernardo do Campo",
+        "estado": "SP"
+      },
+      "senha": "123456",
+      "admin": false
+    },
+    "formaPagamento": "cartao",
+    "cart": [
+      {
+        "nome": "Vinho Tinto Cabernet Sauvignon",
+        "descri\u00e7\u00e3o": "Vinho encorpado com notas de frutas vermelhas e especiarias.",
+        "categoria": 2,
+        "img": "../../img/alchool/fermentadas/Cabernet Sauvignon_.svg",
+        "valor": 45,
+        "quantidade": 1
+      },
+      {
+        "nome": "Cerveja IPA Artesanal",
+        "descri\u00e7\u00e3o": "Cerveja lupulada com aroma c\u00edtrico e amargor equilibrado.",
+        "categoria": 1,
+        "img": "../../img/alchool/fermentadas/IPA artesanal.svg",
+        "valor": 7.5,
+        "quantidade": 1
+      },
+      {
+        "nome": "Sak\u00ea Premium Junmai",
+        "descri\u00e7\u00e3o": "Sake japon\u00eas puro com aroma floral e sabor suave.",
+        "categoria": 9,
+        "img": "../../img/alchool/fermentadas/Sake Premium Junmai.svg",
+        "valor": 25,
+        "quantidade": 1
+      },
+      {
+        "nome": "Vinho Ros\u00e9 Provence",
+        "descri\u00e7\u00e3o": "Vinho ros\u00e9 leve e refrescante, com aromas de frutas vermelhas.",
+        "categoria": 2,
+        "img": "../../img/alchool/fermentadas/Rose Provence.svg",
+        "valor": 18,
+        "quantidade": 1
+      },
+      {
+        "nome": "Cacha\u00e7a Artesanal",
+        "descri\u00e7\u00e3o": "Cacha\u00e7a pura envelhecida em barris de carvalho.",
+        "categoria": 7,
+        "img": "../../img/alchool/fermentadas/Aguardiente Antioque\u00f1o.svg",
+        "valor": 12,
+        "quantidade": 1
+      },
+      {
+        "nome": "Cerveja Weissbier",
+        "descri\u00e7\u00e3o": "Cerveja de trigo alem\u00e3, leve e refrescante, com notas de banana e cravo.",
+        "categoria": 1,
+        "img": "../../img/alchool/fermentadas/Weissbier.svg",
+        "valor": 6,
+        "quantidade": 1
+      },
+      {
+        "nome": "Cidra de P\u00eara",
+        "descri\u00e7\u00e3o": "Cidra suave e frutada com sabor de p\u00earas frescas.",
+        "categoria": 4,
+        "img": "../../img/alchool/fermentadas/Cidra de Pera.svg",
+        "valor": 10,
+        "quantidade": 1
+      },
+      {
+        "nome": "Sangria Espanhola",
+        "descri\u00e7\u00e3o": "Bebida refrescante \u00e0 base de vinho tinto, frutas c\u00edtricas e especiarias.",
+        "categoria": 10,
+        "img": "../../img/alchool/fermentadas/Sangria Espanhola.svg",
+        "valor": 12,
+        "quantidade": 1
+      }
+    ]
+  },
+  {
+    "user": {
+      "nome": "teste",
+      "email": "teste@teste.com.br",
+      "phone": "(11) 96593-2620",
+      "endereco": {
+        "cep": "09710212",
+        "rua": "Rua Municipal",
+        "numero": "507",
+        "complemento": "",
+        "bairro": "Centro",
+        "cidade": "S\u00e3o Bernardo do Campo",
+        "estado": "SP"
+      },
+      "senha": "123456",
+      "admin": false
+    },
+    "formaPagamento": "cartao",
+    "cart": [
+      {
+        "nome": "Vinho Tinto Cabernet Sauvignon",
+        "descri\u00e7\u00e3o": "Vinho encorpado com notas de frutas vermelhas e especiarias.",
+        "categoria": 2,
+        "img": "../../img/alchool/fermentadas/Cabernet Sauvignon_.svg",
+        "valor": 45,
+        "quantidade": 1
+      },
+      {
+        "nome": "Cerveja IPA Artesanal",
+        "descri\u00e7\u00e3o": "Cerveja lupulada com aroma c\u00edtrico e amargor equilibrado.",
+        "categoria": 1,
+        "img": "../../img/alchool/fermentadas/IPA artesanal.svg",
+        "valor": 7.5,
+        "quantidade": 1
+      },
+      {
+        "nome": "Sak\u00ea Premium Junmai",
+        "descri\u00e7\u00e3o": "Sake japon\u00eas puro com aroma floral e sabor suave.",
+        "categoria": 9,
+        "img": "../../img/alchool/fermentadas/Sake Premium Junmai.svg",
+        "valor": 25,
+        "quantidade": 1
+      },
+      {
+        "nome": "Vinho Ros\u00e9 Provence",
+        "descri\u00e7\u00e3o": "Vinho ros\u00e9 leve e refrescante, com aromas de frutas vermelhas.",
+        "categoria": 2,
+        "img": "../../img/alchool/fermentadas/Rose Provence.svg",
+        "valor": 18,
+        "quantidade": 1
+      },
+      {
+        "nome": "Cacha\u00e7a Artesanal",
+        "descri\u00e7\u00e3o": "Cacha\u00e7a pura envelhecida em barris de carvalho.",
+        "categoria": 7,
+        "img": "../../img/alchool/fermentadas/Aguardiente Antioque\u00f1o.svg",
+        "valor": 12,
+        "quantidade": 1
+      },
+      {
+        "nome": "Cerveja Weissbier",
+        "descri\u00e7\u00e3o": "Cerveja de trigo alem\u00e3, leve e refrescante, com notas de banana e cravo.",
+        "categoria": 1,
+        "img": "../../img/alchool/fermentadas/Weissbier.svg",
+        "valor": 6,
+        "quantidade": 1
+      },
+      {
+        "nome": "Cidra de P\u00eara",
+        "descri\u00e7\u00e3o": "Cidra suave e frutada com sabor de p\u00earas frescas.",
+        "categoria": 4,
+        "img": "../../img/alchool/fermentadas/Cidra de Pera.svg",
+        "valor": 10,
+        "quantidade": 1
+      },
+      {
+        "nome": "Sangria Espanhola",
+        "descri\u00e7\u00e3o": "Bebida refrescante \u00e0 base de vinho tinto, frutas c\u00edtricas e especiarias.",
+        "categoria": 10,
+        "img": "../../img/alchool/fermentadas/Sangria Espanhola.svg",
+        "valor": 12,
+        "quantidade": 1
+      }
+    ]
+  },
+  {
+    "user": {
+      "nome": "teste",
+      "email": "teste@teste.com.br",
+      "phone": "(11) 96593-2620",
+      "endereco": {
+        "cep": "09710212",
+        "rua": "Rua Municipal",
+        "numero": "507",
+        "complemento": "",
+        "bairro": "Centro",
+        "cidade": "S\u00e3o Bernardo do Campo",
+        "estado": "SP"
+      },
+      "senha": "123456",
+      "admin": false
+    },
+    "formaPagamento": "cartao",
+    "cart": [
+      {
+        "nome": "Vinho Tinto Cabernet Sauvignon",
+        "descri\u00e7\u00e3o": "Vinho encorpado com notas de frutas vermelhas e especiarias.",
+        "categoria": 2,
+        "img": "../../img/alchool/fermentadas/Cabernet Sauvignon_.svg",
+        "valor": 45,
+        "quantidade": 1
+      },
+      {
+        "nome": "Cerveja IPA Artesanal",
+        "descri\u00e7\u00e3o": "Cerveja lupulada com aroma c\u00edtrico e amargor equilibrado.",
+        "categoria": 1,
+        "img": "../../img/alchool/fermentadas/IPA artesanal.svg",
+        "valor": 7.5,
+        "quantidade": 1
+      },
+      {
+        "nome": "Sak\u00ea Premium Junmai",
+        "descri\u00e7\u00e3o": "Sake japon\u00eas puro com aroma floral e sabor suave.",
+        "categoria": 9,
+        "img": "../../img/alchool/fermentadas/Sake Premium Junmai.svg",
+        "valor": 25,
+        "quantidade": 1
+      },
+      {
+        "nome": "Vinho Ros\u00e9 Provence",
+        "descri\u00e7\u00e3o": "Vinho ros\u00e9 leve e refrescante, com aromas de frutas vermelhas.",
+        "categoria": 2,
+        "img": "../../img/alchool/fermentadas/Rose Provence.svg",
+        "valor": 18,
+        "quantidade": 1
+      },
+      {
+        "nome": "Cacha\u00e7a Artesanal",
+        "descri\u00e7\u00e3o": "Cacha\u00e7a pura envelhecida em barris de carvalho.",
+        "categoria": 7,
+        "img": "../../img/alchool/fermentadas/Aguardiente Antioque\u00f1o.svg",
+        "valor": 12,
+        "quantidade": 1
+      },
+      {
+        "nome": "Cerveja Weissbier",
+        "descri\u00e7\u00e3o": "Cerveja de trigo alem\u00e3, leve e refrescante, com notas de banana e cravo.",
+        "categoria": 1,
+        "img": "../../img/alchool/fermentadas/Weissbier.svg",
+        "valor": 6,
+        "quantidade": 1
+      },
+      {
+        "nome": "Cidra de P\u00eara",
+        "descri\u00e7\u00e3o": "Cidra suave e frutada com sabor de p\u00earas frescas.",
+        "categoria": 4,
+        "img": "../../img/alchool/fermentadas/Cidra de Pera.svg",
+        "valor": 10,
+        "quantidade": 1
+      },
+      {
+        "nome": "Sangria Espanhola",
+        "descri\u00e7\u00e3o": "Bebida refrescante \u00e0 base de vinho tinto, frutas c\u00edtricas e especiarias.",
+        "categoria": 10,
+        "img": "../../img/alchool/fermentadas/Sangria Espanhola.svg",
+        "valor": 12,
+        "quantidade": 1
+      }
+    ]
+  }
+]
