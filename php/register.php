@@ -24,7 +24,8 @@ $current_data[] = [
     'email' => $email,
     'phone' => $phone,
     'endereco' => $endereco,
-    'senha' => $senha
+    'senha' => $senha,
+    "admin" => false
 ];
 
 file_put_contents($file, json_encode($current_data, JSON_UNESCAPED_UNICODE));
