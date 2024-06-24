@@ -32,6 +32,11 @@
   max-height: 100%;
 }
 
+.tableCart tbody {
+  display: flex;
+  flex-direction: column;
+}
+
 .cart thead {
   display: flex;
   justify-content: center;

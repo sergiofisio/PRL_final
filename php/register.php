@@ -10,7 +10,16 @@ $senha = $data['senha'];
 $file = '../database/register.json';
 $current_data = json_decode(file_get_contents($file), true);
 
+$ultimoId = 0;
+foreach ($current_data as $item) {
+    if (isset($item['id']) && $item['id'] > $ultimoId) {
+        $ultimoId = $item['id'];
+    }
+}
+$proximoId = $ultimoId + 1;
+
 $current_data[] = [
+    'id' => $proximoId,
     'nome' => $nome,
     'email' => $email,
     'phone' => $phone,

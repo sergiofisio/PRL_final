@@ -1,6 +1,7 @@
 [
   {
-    "nome": "teste",
+    "id": 1,
+    "nome": "Luiz",
     "email": "teste@teste.com.br",
     "phone": "(11) 96593-2620",
     "endereco": {
@@ -16,135 +17,8 @@
     "admin": false
   },
   {
-    "nome": "teste2",
-    "email": "teste2@teste.com.br",
-    "phone": "(11) 96593-2620",
-    "endereco": {
-      "cep": "09710212",
-      "rua": "Rua Municipal",
-      "numero": "507",
-      "complemento": "apto 102",
-      "bairro": "Centro",
-      "cidade": "São Bernardo do Campo",
-      "estado": "SP"
-    },
-    "senha": "123456",
-    "admin": false
-  },
-  {
-    "nome": "teste",
-    "email": "teste5@teste.com.br",
-    "phone": "(11) 96593-2620",
-    "endereco": {
-      "cep": "09710212",
-      "rua": "Rua Municipal",
-      "numero": "507",
-      "complemento": "apto 102",
-      "bairro": "Centro",
-      "cidade": "São Bernardo do Campo",
-      "estado": "SP"
-    },
-    "senha": "123456",
-    "admin": false
-  },
-  {
-    "nome": "teste telefone",
-    "email": "telefone@teste.com.br",
-    "phone": "(11) 45678-923",
-    "endereco": {
-      "cep": "09710212",
-      "rua": "Rua Municipal",
-      "numero": "507",
-      "complemento": "",
-      "bairro": "Centro",
-      "cidade": "São Bernardo do Campo",
-      "estado": "SP"
-    },
-    "senha": "123456",
-    "admin": false
-  },
-  {
-    "nome": "sergio",
-    "email": "testetelefone@teste.com.br",
-    "phone": "(11) 96547-231",
-    "endereco": {
-      "cep": "09710212",
-      "rua": "Rua Municipal",
-      "numero": "507",
-      "complemento": "apto 102",
-      "bairro": "Centro",
-      "cidade": "São Bernardo do Campo",
-      "estado": "SP"
-    },
-    "senha": "123456",
-    "admin": false
-  },
-  {
-    "nome": "teste",
-    "email": "testeteste@teste.com.br",
-    "phone": "(11) 96547-546",
-    "endereco": {
-      "cep": "09710212",
-      "rua": "Rua Municipal",
-      "numero": "507",
-      "complemento": "apto",
-      "bairro": "Centro",
-      "cidade": "São Bernardo do Campo",
-      "estado": "SP"
-    },
-    "senha": "123456",
-    "admin": false
-  },
-  {
-    "nome": "teste",
-    "email": "testeteste2@teste.com.br",
-    "phone": "(11) 96547-546",
-    "endereco": {
-      "cep": "09710212",
-      "rua": "Rua Municipal",
-      "numero": "507",
-      "complemento": "apto",
-      "bairro": "Centro",
-      "cidade": "São Bernardo do Campo",
-      "estado": "SP"
-    },
-    "senha": "123456",
-    "admin": false
-  },
-  {
-    "nome": "testetestes",
-    "email": "dfasfdas@teste.com.br",
-    "phone": "(11) 96593-2620",
-    "endereco": {
-      "cep": "09710212",
-      "rua": "Rua Municipal",
-      "numero": "507",
-      "complemento": "",
-      "bairro": "Centro",
-      "cidade": "São Bernardo do Campo",
-      "estado": "SP"
-    },
-    "senha": "123456",
-    "admin": false
-  },
-  {
-    "nome": "testetestes",
-    "email": "dfasfdas2@teste.com.br",
-    "phone": "(11) 96593-2620",
-    "endereco": {
-      "cep": "09710212",
-      "rua": "Rua Municipal",
-      "numero": "507",
-      "complemento": "",
-      "bairro": "Centro",
-      "cidade": "São Bernardo do Campo",
-      "estado": "SP"
-    },
-    "senha": "123456",
-    "admin": false
-  },
-  {
-    "nome": "Admin",
+    "id": 2,
+    "nome": "Admin Sergio",
     "email": "admin@teste.com.br",
     "phone": "(11) 96593-2620",
     "endereco": {

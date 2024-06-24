@@ -2,98 +2,122 @@
   {
     "duvida": [
       {
+        "id": 1,
         "nome": "Lucas Ferreira",
         "email": "lucas.ferreira@exemplo.com",
         "mensagem": "Quanto tempo para envio dos produtos?"
       },
       {
+        "id": 2,
         "nome": "Mariana Costa",
         "email": "mariana.costa@exemplo.com",
-        "mensagem": "Quais são as formas de pagamento?"
+        "mensagem": "Quais s\u00e3o as formas de pagamento?"
       },
       {
+        "id": 3,
         "nome": "Rafael Souza",
         "email": "rafael.souza@exemplo.com",
-        "mensagem": "Vocês oferecem suporte para eventos?"
+        "mensagem": "Voc\u00eas oferecem suporte para eventos?"
       },
       {
-        "nome": "Rafael Souza",
-        "email": "rafael.souza@exemplo.com",
-        "mensagem": "Vocês oferecem suporte para eventos?"
+        "id": 4,
+        "nome": "Ana Beatriz",
+        "email": "ana.beatriz@exemplo.com",
+        "mensagem": "\u00c9 poss\u00edvel agendar uma degusta\u00e7\u00e3o antes da compra?"
       },
       {
-        "nome": "Rafael Souza",
-        "email": "rafael.souza@exemplo.com",
-        "mensagem": "Vocês oferecem suporte para eventos?"
+        "id": 5,
+        "nome": "Thiago Nunes",
+        "email": "thiago.nunes@exemplo.com",
+        "mensagem": "Voc\u00eas t\u00eam op\u00e7\u00f5es de bebidas veganas?"
       },
       {
-        "nome": "Rafael Souza",
-        "email": "rafael.souza@exemplo.com",
-        "mensagem": "Vocês oferecem suporte para eventos?"
+        "id": 6,
+        "nome": "Larissa Menezes",
+        "email": "larissa.menezes@exemplo.com",
+        "mensagem": "Como funciona a pol\u00edtica de devolu\u00e7\u00e3o?"
       }
     ],
     "sugestao": [
       {
+        "id": 1,
         "nome": "Tatiane Lima",
         "email": "tatiane.lima@exemplo.com",
-        "mensagem": "Adicionem acessórios para vender na loja."
+        "mensagem": "Adicionem acess\u00f3rios para vender na loja."
       },
       {
+        "id": 2,
         "nome": "Gustavo Henrique",
         "email": "gustavo.henrique@exemplo.com",
-        "mensagem": "Incluir uma seção de perguntas frequentes ajudaria muito os novos usuários."
+        "mensagem": "Incluir uma se\u00e7\u00e3o de perguntas frequentes ajudaria muito os novos usu\u00e1rios."
       },
       {
+        "id": 3,
         "nome": "Fernanda Oliveira",
         "email": "fernanda.oliveira@exemplo.com",
-        "mensagem": "Considerem adicionar um chat ao vivo para suporte rápido."
+        "mensagem": "Considerem adicionar um chat ao vivo para suporte r\u00e1pido."
       },
       {
-        "nome": "Fernanda Oliveira",
-        "email": "fernanda.oliveira@exemplo.com",
-        "mensagem": "Considerem adicionar um chat ao vivo para suporte rápido."
+        "id": 4,
+        "nome": "Roberto Silva",
+        "email": "roberto.silva@exemplo.com",
+        "mensagem": "Seria interessante ter kits para presente com sele\u00e7\u00f5es especiais."
       },
       {
-        "nome": "Fernanda Oliveira",
-        "email": "fernanda.oliveira@exemplo.com",
-        "mensagem": "Considerem adicionar um chat ao vivo para suporte rápido."
+        "id": 5,
+        "nome": "Camila Porto",
+        "email": "camila.porto@exemplo.com",
+        "mensagem": "Expandir a variedade de cervejas artesanais dispon\u00edveis."
       },
       {
-        "nome": "Fernanda Oliveira",
-        "email": "fernanda.oliveira@exemplo.com",
-        "mensagem": "Considerem adicionar um chat ao vivo para suporte rápido."
+        "id": 6,
+        "nome": "Felipe Martins",
+        "email": "felipe.martins@exemplo.com",
+        "mensagem": "Oferecer cursos e workshops sobre coquetelaria e churrasco."
       }
     ],
     "elogio": [
       {
+        "id": 1,
         "nome": "Carlos Eduardo",
         "email": "carlos.eduardo@exemplo.com",
-        "mensagem": "O processo de compra é muito simples e rápido. Parabéns!"
+        "mensagem": "O processo de compra \u00e9 muito simples e r\u00e1pido. Parab\u00e9ns!"
       },
       {
+        "id": 2,
         "nome": "Julia Martins",
         "email": "julia.martins@exemplo.com",
-        "mensagem": "Adorei a qualidade do serviço, superou minhas expectativas!"
+        "mensagem": "Adorei a qualidade do servi\u00e7o, superou minhas expectativas!"
       },
       {
-        "nome": "Pedro Alcântara",
+        "id": 3,
+        "nome": "Pedro Alc\u00e2ntara",
         "email": "pedro.alcantara@exemplo.com",
-        "mensagem": "O atendimento ao cliente é excepcional, muito atenciosos e prestativos."
+        "mensagem": "O atendimento ao cliente \u00e9 excepcional, muito atenciosos e prestativos."
       },
       {
-        "nome": "Pedro Alcântara",
-        "email": "pedro.alcantara@exemplo.com",
-        "mensagem": "O atendimento ao cliente é excepcional, muito atenciosos e prestativos."
+        "id": 4,
+        "nome": "Isabela Freitas",
+        "email": "isabela.freitas@exemplo.com",
+        "mensagem": "A entrega foi mais r\u00e1pida do que eu esperava. Muito bom!"
       },
       {
-        "nome": "Pedro Alcântara",
-        "email": "pedro.alcantara@exemplo.com",
-        "mensagem": "O atendimento ao cliente é excepcional, muito atenciosos e prestativos."
+        "id": 5,
+        "nome": "Marcos Pereira",
+        "email": "marcos.pereira@exemplo.com",
+        "mensagem": "A qualidade das bebidas \u00e9 incr\u00edvel, j\u00e1 virei cliente fiel."
       },
       {
-        "nome": "Pedro Alcântara",
-        "email": "pedro.alcantara@exemplo.com",
-        "mensagem": "O atendimento ao cliente é excepcional, muito atenciosos e prestativos."
+        "id": 6,
+        "nome": "Sofia Gon\u00e7alves",
+        "email": "sofia.goncalves@exemplo.com",
+        "mensagem": "O site \u00e9 muito f\u00e1cil de navegar, encontrei tudo que precisava rapidamente."
+      },
+      {
+        "nome": "Franscisco",
+        "email": "fr@teste.com.br",
+        "mensagem": "Atendentes muito atenciosos, resolveram meu problema em minutos.",
+        "id": 7
       }
     ]
   }

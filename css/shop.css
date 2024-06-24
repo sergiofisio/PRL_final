@@ -212,11 +212,11 @@ aside button:hover {
   text-align: center;
 }
 
-#cart td {
+#cartModal td {
   color: #800;
 }
 
-#cart .tableQtt {
+#cartModal .tableQtt {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -250,12 +250,20 @@ aside button:hover {
 .tableName,
 .tableQtt,
 .tablePrice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
   color: #800;
   min-width: 27%;
 }
 
 .tdRemove {
   cursor: pointer;
+}
+
+.tdRemove img {
+  height: 100% !important;
 }
 
 .buy {
